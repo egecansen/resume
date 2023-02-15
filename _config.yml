@@ -2,7 +2,10 @@
 plugins:
   - jekyll-remote-theme
 remote_theme: ngzhio/jekyll-theme-hamilton
-title: Egecan Şen
-logo: /assets/img/logo.jpg
+title:
+author: Egecan Şen
+email: benegecansen@gmail.com
+
+avatar: /assets/img/logo.jpg
 description: Test Automation Engineer
 show_downloads: true
