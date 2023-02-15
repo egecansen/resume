@@ -1,8 +1,8 @@
-# Umut Ay Bora
+# Egecan Şen
 
-_Technical Test Lead & Senior Software Automation Engineer_ <br>
+_Test Automation Engineer_ <br>
 
-_[Email](mailto:umutaybora@gmail.com) / [LinkedIn](https://www.linkedin.com/in/umutayb/) / [GitHub](https://github.com/Umutayb)_<br>
+_[Email](mailto:benegecansen@gmail.com) / [LinkedIn](https://www.linkedin.com/in/egecansen/) / [GitHub](https://github.com/egecansen)_<br>
 
 I excel at transforming quality assurance within organisarions and establishing software automations(for test & business) that are continuously integrated, easy to maintain, highly sustainable & efficient in execution. My main objective is to optimise quality assurance within organisations while reducing costs of certain tasks by automating them as efficiently as possible. I believe automation is necessary not just for testing but for any task that can benefit from it, and I am up to the task. <br>
 
