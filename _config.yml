@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 title: Egecan Şen
 logo: /assets/img/logo.jpg
-show_downloads: false
-
+description: Automation Engineer
+show_downloads: true
