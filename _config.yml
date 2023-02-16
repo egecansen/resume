@@ -1,7 +1,7 @@
 
 plugins:
   - jekyll-remote-theme
-remote_theme: benbalter/retlab
+remote_theme: BDHU/minimalist
 title:
 author: Egecan Şen
 email: benegecansen@gmail.com
