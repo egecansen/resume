@@ -1,11 +1,19 @@
 
 plugins:
   - jekyll-remote-theme
-remote_theme: BDHU/minimalist
-title:
-author: Egecan Şen
+remote_theme: şBDHU/minimalist
+title: Egecan Şen
 email: benegecansen@gmail.com
 
-avatar: /assets/img/logo.jpg
+logo: /assets/img/logo.jpg
 description: Test Automation Engineer
-show_downloads: true
+show_downloads: false
+
+sidebar:
+  - name: Skills
+  - name: Selenium - UI Automation
+  - name: Appium - Mobile UI Automation
+  - name: Rest Assured - API Automation
+  - name: Github - Version control
+  - name: Intermediate level Java
+  - name: Intermediate level Maven
