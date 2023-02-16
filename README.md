@@ -14,19 +14,19 @@ I am very passionate about programming and i want it to turn it to my profession
 - ***Rest Assured*** - API Automation
 - Intermediate level ***Java***
 - Intermediate level ***Maven***
-  - info
-    - additional info
-    <br><br>
     
 ## Education
 
 - Dokuz Eylül University - Music Technology
   - BA, Department of Music Sciences
 - Ege University - Protohistory and Near Eastern Archaeology
-  - BA, Faculty of Letters Department of Archaeology
+  - BA, Faculty of Letters Department of Archaeology <br>
 
 # Sample Project
 
+In this project, i created a UI automation framework, using Selenium & Cucumber. I applied POM Design to the best of my ability, creating page objects for each page, and writing step classes which connects the methods inside page objects to the cucumber steps by instantiating the class object of the page. This project served as a template for my other projects. <br>
+
+## _[Project Link](https://github.com/egecansen/DemoQA)_<br>
 
 
 
