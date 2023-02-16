@@ -1,8 +1,6 @@
 plugins:
   - jekyll-remote-theme
 remote_theme: BDHU/minimalist
-title: Egecan Şen
 logo: /assets/img/logo.jpg
-email: benegecansen@gmail.com
-description: Automation Engineer
+description: Test Automation Engineer
 show_downloads: true
