@@ -1,4 +1,3 @@
-# Egecan Şen
 
 ## About
  
@@ -8,17 +7,37 @@ During the learning process i stood on how to applying Page Object Model Design 
 
 I am very passionate about programming and i want it to turn it to my profession. Becoming a QA Automation Engineer is my current goal and i hope to achieve it through hard work. <br>
 
-## Skils
+## Skils                    
 
 - ***Github*** - Version control 
-  - info
 - ***Selenium*** - UI Automation
-  - info
 - ***Rest Assured*** - API Automation
-  - info
 - Intermediate level ***Java***
-  - info
 - Intermediate level ***Maven***
   - info
-    - additinal info
+    - additional info
     <br><br>
+    
+## Education
+
+- Dokuz Eylül University - Music Technology
+  - BA, Department of Music Sciences
+- Ege University - Protohistory and Near Eastern Archaeology
+  - BA, Faculty of Letters Department of Archaeology
+
+# Sample Project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
