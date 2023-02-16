@@ -1,4 +1,6 @@
-## ABOUT
+#Egecan Şen
+
+## About
  
 I like to explore more things than one on my journey. After i realise that attitude, i wanted to find a skill that suits this approach. Therewithal i decided to focus on obtaining an in demand skill on top of what i already had. This is where programming piqued my interest. While finding out about which programming language i would focus on, i came across automation, which  suddenly gets my interest because of its all-purposed approach. Since then i have been teaching myself how to automate things. This effort lead me to learn about principles of testing & Automation Engineering. <br>
 
@@ -6,7 +8,7 @@ During the learning process i stood on how to applying Page Object Model Design 
 
 I am very passionate about programming and i want it to turn it to my profession. Becoming a QA Automation Engineer is my current goal and i hope to achieve it through hard work. <br>
 
-## SKILLS
+## Skils
 
 - ***Github*** - Version control 
   - info
