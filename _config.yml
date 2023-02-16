@@ -6,14 +6,20 @@ title: Egecan Şen
 email: benegecansen@gmail.com
 
 logo: /assets/img/logo.jpg
-description: Test Automation Engineer
+description: Skills
+  Selenium - UI Automation
+  Appium - Mobile UI Automation
+  Rest Assured - API Automation
+  Github - Version control
+  Intermediate level Java
+  Intermediate level Maven
 show_downloads: false
 
 sidebar:
-  - name: Skills
-  - name: Selenium - UI Automation
-  - name: Appium - Mobile UI Automation
-  - name: Rest Assured - API Automation
-  - name: Github - Version control
-  - name: Intermediate level Java
-  - name: Intermediate level Maven
+  name: Skills
+  name: Selenium - UI Automation
+  name: Appium - Mobile UI Automation
+  name: Rest Assured - API Automation
+  name: Github - Version control
+  name: Intermediate level Java
+  name: Intermediate level Maven
