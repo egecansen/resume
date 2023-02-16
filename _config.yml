@@ -1,8 +1,5 @@
-
-remote_theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
 title: Egecan Şen
-email: benegecansen@gmail.com
-
 logo: /assets/img/logo.jpg
 show_downloads: false
 
