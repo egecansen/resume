@@ -1,7 +1,7 @@
 
 plugins:
   - jekyll-remote-theme
-remote_theme: BDHU/minimalist
+remote_theme: jekyll-theme-minimal
 title: Egecan Şen
 email: benegecansen@gmail.com
 
