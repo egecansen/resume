@@ -26,7 +26,7 @@ I am very passionate about programming and i want it to turn it to my profession
 
 In this project, i created a UI automation framework, using Selenium & Cucumber. I applied POM Design to the best of my ability, creating page objects for each page, and writing step classes which connects the methods inside page objects to the cucumber steps by instantiating the class object of the page. This project served as a template for my other projects. <br>
 
-![Thumbnail of the Sample Project](qr.png)
+![Thumbnail of the Sample Project](/assets/img/qr.jpg)
 
 ## _[Project Link](https://github.com/egecansen/DemoQA)_<br>
 
