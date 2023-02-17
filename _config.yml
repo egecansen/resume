@@ -1,5 +1,8 @@
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
 remote_theme: BDHU/minimalist
 title: Egecan Şen
 logo: /assets/img/logo.jpg
