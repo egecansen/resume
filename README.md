@@ -9,9 +9,11 @@ I am very passionate about programming and i want it to turn it to my profession
 
 ## Skils                    
 
-- ***Github*** - Version control 
 - ***Selenium*** - UI Automation
-- ***Rest Assured*** - API Automation
+- ***Cucumber*** - BDD
+- ***Rest Assured*** - API Test Automation
+- ***Retrofit & OkHttp*** - API Test Automation
+- ***Git*** - Version control 
 - Intermediate level ***Java***
 - Intermediate level ***Maven***
     
@@ -24,10 +26,11 @@ I am very passionate about programming and i want it to turn it to my profession
 
 # Sample Project
 
-In this project, i created a UI automation framework, using Selenium & Cucumber. I applied POM Design to the best of my ability, creating page objects for each page, and writing step classes which connects the methods inside page objects to the cucumber steps by instantiating the class object of the page. This project served as a template for my other projects. <br>
+In this project, i created a UI automation framework, using Selenium & Cucumber. I applied POM Design to the best of my ability, creating page objects for each page, and writing step classes which connects the methods inside page objects to the cucumber steps by instantiating the class object of the page. This project served as a template for my other projects.
 
+  ***[DemoQA Test Automation](https://github.com/egecansen/DemoQA)***
+  
 ![Sample Project QR](/assets/img/qr.png)
-- _[Project Link](https://github.com/egecansen/DemoQA)_<br>
 
 
 
