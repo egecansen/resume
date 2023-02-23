@@ -7,7 +7,7 @@ During the learning process i stood on how to applying ***Page Object Model Desi
 
 I am very passionate about programming and i want it to turn it to my profession. Becoming a QA Automation Engineer is my current goal and i hope to achieve it through hard work. <br>
 
-## Skils                    
+## Skills                    
 
 - ***Selenium*** - UI Automation
 - ***Cucumber*** - BDD
