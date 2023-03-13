@@ -11,7 +11,7 @@ I am very passionate about programming and i want it to turn it to my profession
 
 - ***Selenium*** - UI Automation
 - ***Cucumber*** - BDD
-- ***Rest Assured*** - API Test Automation
+- ***Appium*** - Mobile UI Automation
 - ***Retrofit & OkHttp*** - API Test Automation
 - ***Git*** - Version control 
 - CI with ***Jenkins*** 
