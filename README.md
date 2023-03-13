@@ -10,8 +10,8 @@ I am very passionate about programming and i want it to turn it to my profession
 ## Skills                    
 
 - ***Selenium*** - UI Automation
-- ***Cucumber*** - BDD
 - ***Appium*** - Mobile UI Automation
+- ***Cucumber*** - BDD
 - ***Retrofit & OkHttp*** - API Test Automation
 - ***Git*** - Version control 
 - CI with ***Jenkins*** 
