@@ -13,6 +13,7 @@ I am very passionate about programming and i want it to turn it to my profession
 - ***Appium*** - Mobile UI Automation
 - ***Cucumber*** - BDD
 - ***Retrofit & OkHttp*** - API Test Automation
+- ***Rest Assured*** - API Automation
 - ***Git*** - Version control 
 - CI with ***Jenkins*** 
 - Intermediate level ***Java***
