@@ -26,6 +26,13 @@ I am very passionate about programming and i want it to turn it to my profession
 - Ege University - Protohistory and Near Eastern Archaeology
   - BA, Faculty of Letters Department of Archaeology <br>
 
+## References
+
+- Umut Ay Bora - Senior Software Automation Engineer 
+  - ***[LinkedIn](https://www.linkedin.com/in/umutayb/)***
+- Şamil Beyazgül - Software QA Engineer 
+  - ***[LinkedIn](https://www.linkedin.com/in/samilbyzgl/)*** 
+
 # Sample Project
 
 In this project, i created a UI automation framework, using ***Selenium & Cucumber***. I applied ***POM Design pattern*** to the best of my ability, creating page objects for each page, and writing step classes which bined the methods inside page objects to the ***Cucumber*** steps by instantiating the class object of the page. This project is build using basic principles of ***OOP***, combines ***BDD*** with Selenium to test integrity of the website. Therefore this project is scalible for future tests on this specific website. 
@@ -34,24 +41,6 @@ In this project, i created a UI automation framework, using ***Selenium & Cucumb
   ***[DemoQA Test Automation](https://github.com/egecansen/DemoQA)***
   
 ![Sample Project QR](/assets/img/qr.png)
-
-
-
-## References
-
-- Umut Ay Bora - Senior Software Automation Engineer 
-  - ***[LinkedIn](https://www.linkedin.com/in/umutayb/)***
-- Şamil Beyazgül - Software QA Engineer 
-  - ***[LinkedIn](https://www.linkedin.com/in/samilbyzgl/)*** 
-
-
-
-
-
-
-
-
-
 
 
 
