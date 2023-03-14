@@ -35,12 +35,14 @@ In this project, i created a UI automation framework, using ***Selenium & Cucumb
   
 ![Sample Project QR](/assets/img/qr.png)
 
+
+
 ## References
 
 - Umut Ay Bora - Senior Software Automation Engineer 
   - ***[LinkedIn](https://www.linkedin.com/in/umutayb/)***
 - Şamil Beyazgül - Software QA Engineer 
-  - ***[LinkedIn](https://www.linkedin.com/in/samilbyzgl/)*** <br>
+  - ***[LinkedIn](https://www.linkedin.com/in/samilbyzgl/)*** 
 
 
 
