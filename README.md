@@ -2,9 +2,9 @@
 ## About
  
 
-I enjoy exploring new things and wanted to find a skill that would suit my approach. I discovered programming and was intrigued by its potential, and later discovered software automation, which I found to be incredibly versatile and efficient. I taught myself automation and learned fundamentals of testing. I have studied and successfully combined common test automation practices such as test execution with BDD, reporting, and application of object oriented programming in test automation (Page Object Model Design Pattern). I successfully ran tests on Selenium Grid and expended test automation knowledge to API and mobile automation (Appium). I also performed cross tests between API and UI. My research also gave me a strong understanding of Java and OOP principles, allowing me to create objects, instantiate them, and use inheritance. I am passionate about programming and aim to pursue a career as a Test Automation Engineer through hard work and constant self-improvement. <br>
+I enjoy exploring new things and wanted to find a skill that would suit my approach. I discovered programming and was intrigued by its potential, and later discovered software automation, which I found to be incredibly versatile and efficient. I taught myself automation and learned fundamentals of testing. I have studied and successfully combined common test automation practices such as test execution with BDD, reporting, and application of object oriented programming in test automation (Page Object Model Design Pattern). I successfully ran tests on Selenium Grid and expended test automation knowledge to API and mobile automation (Appium). I also performed cross tests between API and UI. <br>
 
-My research also gave me a strong understanding of Java and OOP principles, allowing me to create objects, instantiate them, and use inheritance. I am passionate about programming and aim to pursue a career as a QA Automation Engineer through hard work and constant self-improvement. <br>
+My research gave me a strong understanding of Java and OOP principles, allowing me to create objects, instantiate them, and use inheritance. I am passionate about programming and aim to pursue a career as a Test Automation Engineer through hard work and constant self-improvement. <br>
 
 ## Skills                    
 
