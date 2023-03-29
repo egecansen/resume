@@ -1,11 +1,10 @@
 
 ## About
  
-I like to explore more things than one on my journey. After i realise that attitude, i wanted to find a skill that suits this approach. Therewithal i decided to focus on obtaining an in demand skill on top of what i already had. This is where programming piqued my interest. While finding out about which programming language i would focus on, i came across automation, which  suddenly gets my interest because of its all-purposed approach. Since then i have been teaching myself how to automate things. This effort lead me to learn about principles of testing & Automation Engineering. <br>
 
-During the learning process i stood on how to applying ***Page Object Model Design Pattern***, automate UI tests for web applications using ***Selenium Framework***, write test scenarios using ***Cucumber BDD***. I have successfully ran my tests on ***Selenium Grid***. Along with that, i also taught myself other forms of automation such as ***Api Automation***. In the context of my research, i can say that i know the basic principles of ***Java & OOP***, this processes enabled me to create objects, instantiate them & utilize inheritance. <br>
+I enjoy exploring new things and wanted to find a skill that would suit my approach. I discovered programming and was intrigued by its potential, and later discovered software automation, which I found to be incredibly versatile and efficient. I taught myself automation and learned fundamentals of testing. I have studied and successfully combined common test automation practices such as test execution with BDD, reporting, and application of object oriented programming in test automation (Page Object Model Design Pattern). I successfully ran tests on Selenium Grid and expended test automation knowledge to API and mobile automation (Appium). I also performed cross tests between API and UI. My research also gave me a strong understanding of Java and OOP principles, allowing me to create objects, instantiate them, and use inheritance. I am passionate about programming and aim to pursue a career as a QA Automation Engineer through hard work and constant self-improvement. <br>
 
-I am very passionate about programming and i want it to turn it to my profession. Becoming a QA Automation Engineer is my current goal and i hope to achieve it through hard work. <br>
+My research also gave me a strong understanding of Java and OOP principles, allowing me to create objects, instantiate them, and use inheritance. I am passionate about programming and aim to pursue a career as a QA Automation Engineer through hard work and constant self-improvement. <br>
 
 ## Skills                    
 
