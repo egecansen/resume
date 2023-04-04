@@ -39,7 +39,7 @@ In this project, i created a UI automation framework, using ***Selenium & Cucumb
 ![Sample Project QR](/assets/img/qr.png)
 
 
-# Contact
+## Contact
 
 - LinkedIn - https://www.linkedin.com/in/egecansen/
 - Mail - benegecansen@gmail.com
