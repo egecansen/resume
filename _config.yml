@@ -21,5 +21,6 @@ sidebar:
     icon: <i class="fa-solid fa-pen"></i>
     link: mailto:benegecansen@gmail.com
   - name: +90 538 303 35 39
+    icon: <i class="fa-solid fa-phone"></i>
 
 github: [metadata]
