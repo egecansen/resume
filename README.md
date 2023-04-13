@@ -31,6 +31,9 @@ My research gave me a strong understanding of Java and OOP principles, allowing 
 
 - Umut Ay Bora - Senior Software Automation Engineer 
   - ***[LinkedIn](https://www.linkedin.com/in/umutayb/)***
+  
+- Şamil Beyazgül - Software QA Engineer 
+  - ***[LinkedIn](https://www.linkedin.com/in/samilbyzgl/)***
 
 # Sample Project
 
