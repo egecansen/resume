@@ -24,8 +24,6 @@ My research gave me a strong understanding of Java and OOP principles, allowing 
 
 - Dokuz Eylül University - Music Technology
   - BA, Department of Music Science
-- Ege University - Protohistory and Near Eastern Archaeology
-  - BA, Faculty of Letters Department of Archaeology <br>
   
 ## References
 
