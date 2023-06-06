@@ -1,9 +1,13 @@
 ## About
 
-Passionate Test Automation Engineer with experience in software automation, Java, and object-oriented programming principles. Committed to delivering high-quality results and continuously improving software performance. <br>
+Passionate Test Automation Engineer with experience in software automation, Java, and object-oriented programming principles. Committed to delivering high-quality results and continuously improving software performance.
 
-Experienced in designing and implementing test automation frameworks using ***Selenium***, ***Page Object Model*** design pattern and ***BDD*** approach. Experienced in working with automation tools such as ***Selenium***, API testing tools, and mobile automation using ***Appium***. Experienced in generating test reports for better decision-making and improved software quality.
-I am an active contributor to ***[Pickleib](https://github.com/Umutayb/Pickleib)***, a public utility library for software automation projects, as well as Java-Utilities and GPT-Utilities libraries. With a proven ability to identify and resolve complex issues, I optimize test efficiency and effectiveness. As a strong team player with excellent communication skills, I adopt a collaborative approach to achieving project goals. <br>
+Experienced in;
+- Designing and implementing test automation frameworks using ***Selenium***, ***Page Object Model*** design pattern, and ***BDD*** approach.
+- Working with automation tools including ***Selenium***, ***API*** testing tools, and ***Appium*** for mobile automation.
+- Generating comprehensive test reports to facilitate decision-making and enhance software quality.
+
+I am an active contributor of public utility libraries focused on software automation and java. With a proven ability to identify and resolve complex issues, I optimize test efficiency and effectiveness. As a strong team player with excellent communication skills, I adopt a collaborative approach to achieving project goals. <br>
 
 ## Skills                    
 
