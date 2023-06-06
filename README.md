@@ -24,15 +24,8 @@ I am an active contributor to ***[Pickleib](https://github.com/Umutayb/Pickleib)
   - BA, Department of Music Sciences
 <br>
 
-## References
-
-- Umut Ay Bora - Senior Software Automation Engineer 
-  - ***[LinkedIn](https://www.linkedin.com/in/umutayb/)***
-- Şamil Beyazgül - Software QA Engineer 
-  - ***[LinkedIn](https://www.linkedin.com/in/samilbyzgl/)***
-<br>
-
 # Projects
+<br>
 
 ## ToolsQA Test Automation 
 
@@ -82,3 +75,11 @@ I am an active contributor to ***[Pickleib](https://github.com/Umutayb/Pickleib)
 - ***[Web-Automation-Sample-Cucumber](https://github.com/Umutayb/Web-Automation-Sample-Cucumber)***
   - This project is a template demonstrating designed usage of Pickleib test automation library. The template can be used for quick initialisation of test automation projects.
   - I expanded the versatility of the project by adding new test scenarios that encompass both UI and API testing. These additional scenarios allowed for a more comprehensive and thorough testing approach, catering to different aspects of web application testing.
+<br>
+
+## References
+
+- Umut Ay Bora - Senior Software Automation Engineer 
+  - ***[LinkedIn](https://www.linkedin.com/in/umutayb/)***
+- Şamil Beyazgül - Software QA Engineer 
+  - ***[LinkedIn](https://www.linkedin.com/in/samilbyzgl/)***
