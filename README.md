@@ -24,8 +24,8 @@ I am an active contributor to ***[Pickleib](https://github.com/Umutayb/Pickleib)
   - BA, Department of Music Sciences
 <br>
 
-# Projects
-<br>
+# Projects <br>
+
 ## ToolsQA Test Automation 
 
 - In this project, i created a UI automation framework, using ***Selenium & Cucumber***.
