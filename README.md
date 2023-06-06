@@ -7,7 +7,7 @@ Experienced in;
 - Working with automation tools including ***Selenium***, ***API*** testing tools, and ***Appium*** for mobile automation.
 - Generating comprehensive test reports to facilitate decision-making and enhance software quality.
 
-Additionally, I am an active contributor of public utility libraries focused on software automation and java.
+I am an active contributor of public utility libraries focused on software automation and java.
 With a proven ability to identify and resolve complex issues, I optimize test efficiency and effectiveness. As a strong team player with excellent communication skills, I adopt a collaborative approach to achieving project goals. <br>
 
 ## Skills                    
