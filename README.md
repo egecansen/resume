@@ -1,6 +1,6 @@
 ## About
 
-Passionate Test Automation Engineer with experienced in software automation, Java, and object-oriented programming principles. Committed to delivering high-quality results and continuously improving software performance. <br>
+Passionate Test Automation Engineer with experience in software automation, Java, and object-oriented programming principles. Committed to delivering high-quality results and continuously improving software performance. <br>
 
 Experienced in designing and implementing test automation frameworks using ***Selenium***, ***Page Object Model*** design pattern and ***BDD*** approuch. Experienced in working with automation tools such as ***Selenium***, API testing tools, and mobile automation using ***Appium***. Experienced in generating test reports for better decision-making and improved software quality.
 I am an active contributor to ***[Pickleib](https://github.com/Umutayb/Pickleib)***, a public utility library for software automation projects, as well as Java-Utilities and GPT-Utilities libraries. With a proven ability to identify and resolve complex issues, I optimize test efficiency and effectiveness. As a strong team player with excellent communication skills, I adopt a collaborative approach to achieving project goals. <br>
