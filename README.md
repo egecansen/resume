@@ -59,7 +59,7 @@ I am an active contributor to ***[Pickleib](https://github.com/Umutayb/Pickleib)
 ## Open-Source Project Contributions
 
 - ***[Pickleib](https://github.com/Umutayb/Pickleib)***
-  - Improved documentation, property configurations, and scability for future upgrades.
+  - Improved documentation, property configurations, and scalability for future upgrades.
   - For this library, I created a MongoDB database that includes methods and documentations.
   - Added chat support functionality. This feature uses OpenAI API and MongoDB Atlas API services along with the GPT-Utilities library. By seamlessly integrating chatGPT with MongoDB database, the chat support feature provides a dynamic and engaging environment for users. Allowing them to receive assistance and retrieve method information and usage examples from the Pickleib library.
  
