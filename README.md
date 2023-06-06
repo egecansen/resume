@@ -1,11 +1,9 @@
 ## About
- 
 
-I enjoy exploring new things and wanted to find a skill that would suit my approach. I discovered programming and was intrigued by its potential, and later discovered software automation, which I found to be incredibly versatile and efficient. I taught myself automation and learned fundamentals of testing. I have studied and successfully combined common test automation practices such as test execution with ***BDD***, reporting, and application of object oriented programming in test automation (***Page Object Model Design Pattern***). I successfully ran tests on ***Selenium Grid*** and expended test automation knowledge to API and mobile automation (***Appium***). I also performed cross tests between API and UI. <br>
+Passionate Test Automation Engineer with experienced in software automation, Java, and object-oriented programming principles. Committed to delivering high-quality results and continuously improving software performance. <br>
 
-I'm a contributer of an open source library called ***[Pickleib](https://github.com/Umutayb/Pickleib)***. Pickleib is a public utility library for software automation projects. It helps you design and run tests with Selenium WebDriver in a simple and efficient way. It provides a set of utilities and ready to go driver setup that provide great convenience for designing test automations. Along with that i contribute other libraries such as ***[Java-Utilities](https://github.com/Umutayb/Java-Utilities)*** and ***[GPT-Utilities](https://github.com/Umutayb/GPT-Utilities)***. <br>
-
-My research gave me a strong understanding of Java and OOP principles, allowing me to create objects, instantiate them, and use inheritance. I am passionate about programming and aim to pursue a career as a Test Automation Engineer through hard work and constant self-improvement. <br>
+Experienced in designing and implementing test automation frameworks using ***Selenium***, ***Page Object Model*** design pattern and ***BDD*** approuch. Experienced in working with automation tools such as ***Selenium***, API testing tools, and mobile automation using ***Appium***. Experienced in generating test reports for better decision-making and improved software quality.
+I am an active contributor to ***[Pickleib](https://github.com/Umutayb/Pickleib)***, a public utility library for software automation projects, as well as Java-Utilities and GPT-Utilities libraries. With a proven ability to identify and resolve complex issues, I optimize test efficiency and effectiveness. As a strong team player with excellent communication skills, I adopt a collaborative approach to achieving project goals. <br>
 
 ## Skills                    
 
@@ -18,25 +16,69 @@ My research gave me a strong understanding of Java and OOP principles, allowing 
 - CI with ***Jenkins*** 
 - Intermediate level ***Java***
 - Intermediate level ***Maven***
-    
+<br>
+
 ## Education
 
 - Dokuz Eylül University - Music Technology
-  - BA, Department of Music Science
-  
+  - BA, Department of Music Sciences
+<br>
+
 ## References
 
 - Umut Ay Bora - Senior Software Automation Engineer 
   - ***[LinkedIn](https://www.linkedin.com/in/umutayb/)***
-  
 - Şamil Beyazgül - Software QA Engineer 
   - ***[LinkedIn](https://www.linkedin.com/in/samilbyzgl/)***
+<br>
 
-# Sample Project
+# Projects
 
-In this project, i created a UI automation framework, using ***Selenium & Cucumber***. I applied ***POM Design pattern***, creating page objects for each page, and writing step classes which bined the methods inside page objects to the ***Cucumber*** steps by instantiating the class object of the page. This project is build using basic principles of ***OOP***, combines ***BDD*** with Selenium to test integrity of the website. Therefore this project is scalible for future tests on this specific website. 
+## ToolsQA Test Automation 
 
-
-  ***[DemoQA Test Automation](https://github.com/egecansen/DemoQA)***
+- In this project, i created a UI automation framework, using ***Selenium & Cucumber***.
+- By implementing the ***Page Object Model (POM)*** design pattern, created separate page objects for each page, ensuring a modular and maintainable test framework. 
+- Additionally, I wrote step classes that seamlessly integrated the methods within the page objects with the ***Cucumber*** steps, enhancing the readability and reusability of the test scripts.
+- This project is build using basic principles of ***OOP***, combines ***BDD*** with Selenium to test integrity of the website.
+- The modular structure of the framework makes it highly scalable, allowing for seamless expansion of future tests on this specific website.
+- To go to project page -> ***[ToolsQA Test Automation](https://github.com/egecansen/DemoQA)***
   
-![Sample Project QR](/assets/img/qr.png)
+  ![Sample Project QR](/assets/img/toolsqa-qr.png)
+ 
+  
+## API Automation
+
+- This project is an API service that interacts with the PetStore database to perform various CRUD operations. The API service provides a convenient and easy-to-use interface for managing the database. 
+- Additionally, this project serves as a valuable template for future API automation projects. Its comprehensive functionality make it an ideal starting point for building similar solutions, saving time and effort in development.
+- To go to project page ->  ***[API Automation Template](https://github.com/egecansen/Api-Sample)***
+  
+  ![Sample Project QR](/assets/img/api1-qr.png)
+  
+  
+## Mobile Automation
+
+- This project is an exemplary framework designed for testing mobile applications. It leverages Appium to establish a dependable and effective testing solution.
+- This framework serves as a useful template for future mobile application testing projects. It provides a solid foundation that can be customized and expanded upon, saving time and effort in developing new automation frameworks.
+- To go to project page ->  ***[Mobile Automation Template](https://github.com/egecansen/Appium-Test-Sample)***
+  
+  ![Sample Project QR](/assets/img/mobile1-qr.png)
+ 
+
+## Open-Source Project Contributions
+
+- ***[Pickleib](https://github.com/Umutayb/Pickleib)***
+  - Improved documentation, property configurations, and scability for future upgrades.
+  - Added chat support functionality. This feature utilizes the power of OpenAI API services and the GPT-Utilities library. By seamlessly integrating with mongoDB database, the chat support feature provides a dynamic and engaging environment for users. Allowing them to receive assistance and retrieve method information and usage examples from the Pickleib library.
+ 
+- ***[GPT-Utilities](https://github.com/Umutayb/GPT-Utilities)***
+  - This library utilizes the OpenAI API service to provide inner GPT functionality for Java projects.
+  - It offers various features such as chat support, data generation, and more, which can be seamlessly integrated into any Java project.
+  - I established the initial framework and set up the foundation for API usage. Additionally, I provided support throughout the development process.
+
+- ***[Java-Utilities](https://github.com/Umutayb/Java-Utilities)***
+  - I worked on enhancing the documentation for the project. This involved clarifying existing documentation, providing additional explanations, and ensuring that it is comprehensive and easy to understand for users.
+  - Additionally, I added new methods to the project. These additions aimed to expand the functionality and usefulness of the Java-Utilities library, providing users with more options and capabilities when working with Java applications.
+
+- ***[Web-Automation-Sample-Cucumber](https://github.com/Umutayb/Web-Automation-Sample-Cucumber)***
+  - This project is a template demonstrating designed usage of Pickleib test automation library. The template can be used for quick initialisation of test automation projects.
+  - I expanded the versatility of the project by adding new test scenarios that encompass both UI and API testing. These additional scenarios allowed for a more comprehensive and thorough testing approach, catering to different aspects of web application testing.
