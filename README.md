@@ -1,6 +1,6 @@
 ## About
 
-Passionate Test Automation Engineer with experience in software automation, ***Java***, and ***Object-Oriented Programming*** principles. Committed to delivering high-quality results and continuously improving software performance.
+Passionate Test Automation Engineer with experience in software automation, Java, and Object-Oriented Programming principles. Committed to delivering high-quality results and continuously improving software performance.
 
 Experienced in;
 - Designing and implementing test automation frameworks using ***Selenium***, ***Page Object Model*** design pattern, and ***BDD*** approach.
@@ -30,7 +30,7 @@ I am an active contributor of public utility libraries focused on software autom
 
 # Projects <br>
 
-## ToolsQA Test Automation 
+## API/UI Hybrid Test Automation 
 
 - In this project, i created a UI automation framework, using ***Selenium & Cucumber***.
 - By implementing the ***Page Object Model (POM)*** design pattern, created separate page objects for each page, ensuring a modular and maintainable test framework. 
