@@ -1,4 +1,3 @@
-
 ## About
  
 
@@ -41,4 +40,3 @@ In this project, i created a UI automation framework, using ***Selenium & Cucumb
   ***[DemoQA Test Automation](https://github.com/egecansen/DemoQA)***
   
 ![Sample Project QR](/assets/img/qr.png)
-
