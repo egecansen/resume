@@ -26,7 +26,6 @@ I am an active contributor to ***[Pickleib](https://github.com/Umutayb/Pickleib)
 
 # Projects
 <br>
-
 ## ToolsQA Test Automation 
 
 - In this project, i created a UI automation framework, using ***Selenium & Cucumber***.
