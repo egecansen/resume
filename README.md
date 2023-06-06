@@ -65,7 +65,7 @@ With a proven ability to identify and resolve complex issues, I optimize test ef
 
 - ***[Pickleib](https://github.com/Umutayb/Pickleib)***
   - Improved documentation, property configurations, and scalability for future upgrades.
-  - Created a MongoDB database that includes methods and documentations of the Pickeleib library.
+  - Created a MongoDB database that includes methods and documentations of the Pickleib library.
   - Added chat support functionality. This feature uses OpenAI API and MongoDB Atlas API services along with the GPT-Utilities library. By seamlessly integrating chatGPT with MongoDB database, the chat support feature provides a dynamic and engaging environment for users. Allowing them to receive assistance and retrieve method information and usage examples from the Pickleib library.
  
 - ***[GPT-Utilities](https://github.com/Umutayb/GPT-Utilities)***
