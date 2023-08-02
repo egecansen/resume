@@ -64,9 +64,9 @@ With a proven ability to identify and resolve complex issues, I optimize test ef
 ## Open-Source Project Contributions
 
 - ***[Pickleib](https://github.com/Umutayb/Pickleib)***
-  - Improved documentation, property configurations, and scalability for future upgrades.
-  - Created a MongoDB database that includes methods and documentations of the Pickleib library.
-  - Added chat support functionality. This feature uses OpenAI API and MongoDB Atlas API services along with the GPT-Utilities library. By seamlessly integrating chatGPT with MongoDB database, the chat support feature provides a dynamic and engaging environment for users. Allowing them to receive assistance and retrieve method information and usage examples from the Pickleib library.
+  - Improved documentation, property configurations and scalability for future upgrades.
+  - A MongoDB database was created containing methods and documentation of the Pickleib library. 
+  - Added chat support functionality. This feature leverages the OpenAI API and MongoDB Atlas API services along with the GPT utilities library. By seamlessly integrating chatGPT with the MongoDB database, the chat support feature provides a dynamic and engaging environment for users. This allows them to get support and retrieve method information and application examples from the Pickleib library.
  
 - ***[GPT-Utilities](https://github.com/Umutayb/GPT-Utilities)***
   - This library utilizes the OpenAI API service to provide inner GPT functionality for Java projects.
@@ -74,8 +74,8 @@ With a proven ability to identify and resolve complex issues, I optimize test ef
   - I established the initial framework and set up the foundation for API usage. Additionally, I provided support throughout the development process.
 
 - ***[Java-Utilities](https://github.com/Umutayb/Java-Utilities)***
-  - I worked on enhancing the documentation for the project. This involved clarifying existing documentation, providing additional explanations, and ensuring that it is comprehensive and easy to understand for users.
-  - Additionally, I added new methods to the project. These additions aimed to expand the functionality and usefulness of the Java-Utilities library, providing users with more options and capabilities when working with Java applications.
+  - To clarify usage I create documentation, specify additional descriptions and ensure that it is comprehensive and effortless for users to understand.
+  - Added new methods to the library. These enhancements aimed to extend the functionality and practicality of the Java Utilities library and to provide end users with more alternatives and efficiencies when working with Java applications.
 
 - ***[Web-Automation-Sample-Cucumber](https://github.com/Umutayb/Web-Automation-Sample-Cucumber)***
   - This project is a template demonstrating designed usage of Pickleib test automation library. The template can be used for quick initialisation of test automation projects.
