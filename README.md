@@ -38,7 +38,7 @@ With a proven ability to identify and resolve complex issues, I optimize test ef
 - Additionally, I wrote step classes that seamlessly integrated the methods within the page objects with the ***Cucumber*** steps, enhancing the readability and reusability of the test scripts.
 - This project is build using basic principles of ***OOP***, combines ***BDD*** with Selenium to test integrity of the website.
 - The modular structure of the framework makes it highly scalable, allowing for seamless expansion of future tests on this specific website.
-- To go to project page -> ***[ToolsQA Test Automation](https://github.com/egecansen/DemoQA)***
+- Project page -> ***[ToolsQA Test Automation](https://github.com/egecansen/DemoQA)***
   
   ![Sample Project QR](/assets/img/toolsqa-qr.png)
  
@@ -47,7 +47,7 @@ With a proven ability to identify and resolve complex issues, I optimize test ef
 
 - This project is an API service that interacts with the PetStore database to perform various CRUD operations. The API service provides a convenient and easy-to-use interface for managing the database. 
 - Additionally, this project serves as a valuable template for future API automation projects. Its comprehensive functionality make it an ideal starting point for building similar solutions, saving time and effort in development.
-- To go to project page ->  ***[API Automation Template](https://github.com/egecansen/Api-Sample)***
+- Project page ->  ***[API Automation Template](https://github.com/egecansen/Api-Sample)***
   
   ![Sample Project QR](/assets/img/api1-qr.png)
   
@@ -56,7 +56,7 @@ With a proven ability to identify and resolve complex issues, I optimize test ef
 
 - This project is an exemplary framework designed for testing mobile applications. It leverages Appium to establish a dependable and effective testing solution.
 - This framework serves as a useful template for future mobile application testing projects. It provides a solid foundation that can be customized and expanded upon, saving time and effort in developing new automation frameworks.
-- To go to project page ->  ***[Mobile Automation Template](https://github.com/egecansen/Appium-Test-Sample)***
+- Project page ->  ***[Mobile Automation Template](https://github.com/egecansen/Appium-Test-Sample)***
   
   ![Sample Project QR](/assets/img/mobile1-qr.png)
  
