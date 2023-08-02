@@ -16,7 +16,6 @@ With a proven ability to identify and resolve complex issues, I optimize test ef
 - ***Appium*** - Mobile UI Automation
 - ***Cucumber*** - BDD
 - ***Retrofit & OkHttp*** - API Test Automation
-- ***Rest Assured*** - API Automation
 - ***Git*** - Version control 
 - CI with ***Jenkins*** 
 - Intermediate level ***Java***
