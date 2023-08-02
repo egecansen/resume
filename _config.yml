@@ -5,7 +5,7 @@ plugins:
   - jemoji
 remote_theme: BDHU/minimalist
 title: Egecan Şen
-logo: /assets/img/pp1.jpg
+logo: /assets/img/pp.jpg
 description: Test Automation Engineer
 show_downloads: false
 color-scheme: dark
