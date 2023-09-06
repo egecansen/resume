@@ -8,7 +8,8 @@ Experienced in;
 - Generating comprehensive test reports to facilitate decision-making and enhance software quality.
 
 I am an active contributor of public utility libraries focused on software automation and java.
-With a proven ability to identify and resolve complex issues, I optimize test efficiency and effectiveness. As a strong team player with excellent communication skills, I adopt a collaborative approach to achieving project goals. <br>
+My main approach is to identify issues and optimize efficiency and effectiveness. 
+I adopt a collaborative approach to achieving project goals.  <br>
 
 ## Skills                    
 
