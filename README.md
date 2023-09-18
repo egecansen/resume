@@ -17,7 +17,7 @@ I adopt a collaborative approach to achieving project goals.  <br>
 - ***Appium*** - Mobile UI Automation
 - ***Cucumber*** - BDD
 - ***Retrofit & OkHttp*** - API Test Automation
-- ***Git*** - Version control 
+- ***Git*** - Version control
 - CI with ***Jenkins*** 
 - Intermediate level ***Java***
 - Intermediate level ***Maven***
@@ -33,7 +33,7 @@ I adopt a collaborative approach to achieving project goals.  <br>
 
 ## API/UI Hybrid Test Automation 
 
-- In this project, i created a UI automation framework, using ***Selenium & Cucumber***.
+- In this project, I created a UI automation framework, using ***Selenium & Cucumber***.
 - By implementing the ***Page Object Model (POM)*** design pattern, created separate page objects for each page, ensuring a modular and maintainable test framework. 
 - Additionally, I wrote step classes that seamlessly integrated the methods within the page objects with the ***Cucumber*** steps, enhancing the readability and reusability of the test scripts.
 - This project is build using basic principles of ***OOP***, combines ***BDD*** with Selenium to test integrity of the website.
