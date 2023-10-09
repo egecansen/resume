@@ -30,7 +30,8 @@ I adopt a collaborative approach to achieving project goals.  <br>
 <br>
 
 # Projects 
-<br>
+
+
 ## API/UI Hybrid Test Automation 
 
 - In this project, I created a UI automation framework, using ***Selenium & Cucumber***.
