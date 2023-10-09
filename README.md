@@ -29,7 +29,9 @@ I adopt a collaborative approach to achieving project goals.  <br>
   - BA, Department of Music Sciences
 <br>
 
-# Projects <br>
+# Projects 
+
+<br>
 
 ## API/UI Hybrid Test Automation 
 
@@ -41,7 +43,8 @@ I adopt a collaborative approach to achieving project goals.  <br>
 - Project page -> ***[ToolsQA Test Automation](https://github.com/egecansen/DemoQA)***
   
   ![Sample Project QR](/assets/img/toolsqa-qr.png)
- 
+
+ <br>
   
 ## API Automation
 
@@ -50,7 +53,8 @@ I adopt a collaborative approach to achieving project goals.  <br>
 - Project page ->  ***[API Automation Template](https://github.com/egecansen/Api-Sample)***
   
   ![Sample Project QR](/assets/img/api1-qr.png)
-  
+
+  <br>
   
 ## Mobile Automation
 
@@ -59,7 +63,8 @@ I adopt a collaborative approach to achieving project goals.  <br>
 - Project page ->  ***[Mobile Automation Template](https://github.com/egecansen/Appium-Test-Sample)***
   
   ![Sample Project QR](/assets/img/mobile1-qr.png)
- 
+
+ <br>
 
 ## Open-Source Project Contributions
 
