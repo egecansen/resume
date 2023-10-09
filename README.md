@@ -31,8 +31,6 @@ I adopt a collaborative approach to achieving project goals.  <br>
 
 # Projects 
 
-<br>
-
 ## API/UI Hybrid Test Automation 
 
 - In this project, I created a UI automation framework, using ***Selenium & Cucumber***.
@@ -44,7 +42,7 @@ I adopt a collaborative approach to achieving project goals.  <br>
   
   ![Sample Project QR](/assets/img/toolsqa-qr.png)
 
-⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
   
 ## API Automation
 
@@ -54,7 +52,7 @@ I adopt a collaborative approach to achieving project goals.  <br>
   
   ![Sample Project QR](/assets/img/api1-qr.png)
 
-⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
   
 ## Mobile Automation
 
@@ -64,7 +62,7 @@ I adopt a collaborative approach to achieving project goals.  <br>
   
   ![Sample Project QR](/assets/img/mobile1-qr.png)
 
-⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
 ## Open-Source Project Contributions
 
@@ -85,4 +83,6 @@ I adopt a collaborative approach to achieving project goals.  <br>
 - ***[Web-Automation-Sample-Cucumber](https://github.com/Umutayb/Web-Automation-Sample-Cucumber)***
   - This project is a template demonstrating designed usage of Pickleib test automation library. The template can be used for quick initialisation of test automation projects.
   - I expanded the versatility of the project by adding new test scenarios that encompass both UI and API testing. These additional scenarios allowed for a more comprehensive and thorough testing approach, catering to different aspects of web application testing.
-<br>
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
