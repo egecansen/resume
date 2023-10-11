@@ -43,7 +43,7 @@ I adopt a collaborative approach to achieving project goals.  <br>
   
   ![Sample Project QR](/assets/img/toolsqa-qr.png)
 
-⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
   
 ## API Automation
 
@@ -53,7 +53,7 @@ I adopt a collaborative approach to achieving project goals.  <br>
   
   ![Sample Project QR](/assets/img/api1-qr.png)
 
-⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
   
 ## Mobile Automation
 
@@ -63,7 +63,7 @@ I adopt a collaborative approach to achieving project goals.  <br>
   
   ![Sample Project QR](/assets/img/mobile1-qr.png)
 
-⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
 ## Open-Source Project Contributions
 
