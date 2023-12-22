@@ -7,8 +7,8 @@ Experienced in;
 - Working with automation tools including ***Selenium***, ***API*** testing tools, and ***Appium*** for mobile automation.
 - Generating comprehensive test reports to facilitate decision-making and enhance software quality.
 
-I am an active contributor of public utility libraries focused on software automation and java.
-My main approach is to identify issues and optimize efficiency and effectiveness. 
+Additionally, I am an active contributor of public utility libraries based on software automation and java.
+My main focus is to identify issues and optimize efficiency and effectiveness. 
 I adopt a collaborative approach to achieving project goals.  <br>
 
 ## Skills                    
@@ -18,7 +18,8 @@ I adopt a collaborative approach to achieving project goals.  <br>
 - ***Cucumber*** - BDD
 - ***Retrofit & OkHttp*** - API Test Automation
 - ***Git*** - Version control
-- CI with ***Jenkins*** 
+- CI with ***Jenkins & Azure DevOps***
+- Performance Test with ***OctoPerf***
 - Intermediate level ***Java***
 - Intermediate level ***Maven***
 <br>
