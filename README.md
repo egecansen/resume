@@ -1,6 +1,7 @@
 ## About
 
-Passionate Test Automation Engineer with experience in software automation, Java, and Object-Oriented Programming principles. Committed to delivering high-quality results and continuously improving software performance.
+Experienced Test Automation Engineer with a solid background in software automation, Java, and Object-Oriented Programming principles. 
+Committed to delivering high-quality results and continuously improving software performance.
 
 Experienced in;
 - Designing and implementing test automation frameworks using ***Selenium***, ***Page Object Model*** design pattern, and ***BDD*** approach.
@@ -17,9 +18,9 @@ I adopt a collaborative approach to achieving project goals.  <br>
 - ***Appium*** - Mobile UI Automation
 - ***Cucumber*** - BDD
 - ***Retrofit & OkHttp*** - API Test Automation
+- ***OctoPerf*** - Performance Test
 - ***Git*** - Version control
 - CI with ***Jenkins & Azure DevOps***
-- Performance Test with ***OctoPerf***
 - Intermediate level ***Java***
 - Intermediate level ***Maven***
 <br>
