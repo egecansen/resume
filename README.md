@@ -19,7 +19,7 @@ I adopt a collaborative approach to achieving project goals.  <br>
 - ***Cucumber*** - BDD
 - ***Retrofit & OkHttp*** - API Test Automation
 - ***Git*** - Version control
-- Performance Test with ***OctoPerf***
+- Performance Testing with ***OctoPerf***
 - CI with ***Jenkins & Azure DevOps***
 - Intermediate level ***Java***
 - Intermediate level ***Maven***
