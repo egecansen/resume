@@ -20,5 +20,8 @@ sidebar:
   - name: Email
     icon: <i class="fa-solid fa-pen"></i>
     link: mailto:benegecansen@gmail.com
+  - name: Download Resume
+    icon: <i class="fa-solid fa-file-pdf"></i>
+    action: printResume()
     
 github: [metadata]
