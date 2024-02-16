@@ -10,7 +10,7 @@ Experienced in;
 
 Additionally, I am an active contributor of public utility libraries based on software automation and java.
 My main focus is to identify issues and optimize efficiency and effectiveness. 
-I adopt a collaborative approach to achieving project goals.  <br>
+I adopt a collaborative approach to achieving project goals.  <br> 
 
 ## Skills                    
 
