@@ -15,17 +15,17 @@ Experienced in;
 citizenM is a Netherlands-based, global hotel developer, investor, and hotel chain.
 - Handled website QA process during a database migration project called Sunrise.
 - Played a key role as a QA for the new database product UI.
-- Handled the UI part of the Performance Test at the end of the Sunrise project.
-- During the Sunrise process, I started to support the API QA processes as well.
+- Handled the UI part of the Performance Tests for the Sunrise project.
+- During the Sunrise process, started to support the API QA processes.
 - Handled the QA process for the website Nuxt migration project, creating and automating key flow scripts.
-- Proposed and established a test automation stage for deployment pipelines, setting up Slack channels to track results.
+- Proposed and established a test automation stage for deployment pipelines, setting up a Slack channel to track results.
 - Became one of the release approvers for the website.
-- Co-led ***QA Scrum processes***, organizing meetings and scrum activities.
+- Co-led QA Scrum processes, organizing meetings and scrum activities.
 - Supported QA process of the mobile app during periods of QA absence.
-- ***Established a new SDLC model for the website product***, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
+- Established a new SDLC model for the website product, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
 - Handled the QA process of a content migration project called Headless Marketing content.
-- Proposed the ***X-ray Test Management Tool*** to improve QA processes, handled the integration process for the website team.
-- Led ***Black Friday QA coordination***, overseeing campaign changes and flow tracking.
+- Proposed the X-ray Test Management Tool to improve QA processes, handled the integration process for the website team.
+- Led Black Friday QA coordination, overseeing campaign changes and flow tracking.
 - Increased focus on API automation for future cycles.
 
 **Automation Engineer** ***@[Smart Nearshore](https://www.smartconsulting.pt/en/services/nearshore)*** _(19.06.2023 - Present)_ <br>
