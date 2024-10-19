@@ -11,7 +11,7 @@ Experienced in;
 
 **QA Automation Engineer** ***@[CitizenM Hotels](https://www.citizenm.com/company/overview)*** _(19.06.2023 - Present)_ <br>
 citizenM is a Netherlands-based, global hotel developer, investor, and hotel chain.
-- I was contracted to worked for the website during a database migration project called Sunrise.
+- I was responsible for the website QA process during a database migration project called Sunrise.
 - Along with the website product, involved in the QA process for the UI of the new database product Apaleo.
 - I handled the UI part of the Performance Test at the end of the migration process.
 - During the Sunrise process, I started to support the API QA processes as well.
