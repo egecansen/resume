@@ -1,16 +1,37 @@
 ## About
 
 Experienced Test Automation Engineer with a solid background in software automation, Java, and Object-Oriented Programming principles. 
-Committed to delivering high-quality results and continuously improving software performance.
 
 Experienced in;
 - Designing and implementing test automation frameworks using ***Selenium***, ***Page Object Model*** design pattern, and ***BDD*** approach.
 - Working with automation tools including ***Selenium***, ***API*** testing tools, and ***Appium*** for mobile automation.
 - Generating comprehensive test reports to facilitate decision-making and enhance software quality.
 
-Additionally, I am an active contributor of public utility libraries based on software automation and java.
-My main focus is to identify issues and optimize efficiency and effectiveness. 
-I adopt a collaborative approach to achieving project goals.  <br> 
+## Experience
+
+**QA Automation Engineer** ***@[CitizenM Hotels](https://www.citizenm.com/company/overview)*** _(19.06.2023 - Present)_ <br>
+citizenM is a Netherlands-based, global hotel developer, investor, and hotel chain.
+- I was contracted to worked for the website during a database migration project called Sunrise.
+- Along with the website product, involved in the QA process for the UI of the new database product Apaleo.
+- I handled the UI part of the Performance Test at the end of the migration process.
+- During the Sunrise process, I started to support the API QA processes as well.
+- Handled the QA process for the website Nuxt migration project, creating and automating key flow scripts.
+- Proposed and established a test automation stage for deployment pipelines, setting up Slack channels to track results.
+- Became one of the release approvers for the website.
+- Co-led ***QA Scrum processes***, organizing meetings and scrum activities.
+- Supported the mobile app QA team during periods of absence.
+- Established a new ***SDLC model*** for the website product, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
+- Proposed the ***X-ray Test Management Tool*** to improve QA processes, handled the integration process for the website team.
+- Led ***Black Friday QA coordination***, overseeing campaign changes and flow tracking.
+- Increased focus on API automation for future cycles.
+
+**Automation Engineer** ***@[Smart Nearshore](https://www.smartconsulting.pt/en/services/nearshore)*** _(19.06.2023 - Present)_ <br>
+Smart Consulting provides information technology, consulting, and telecommunications services.
+- Providing outsourced services to key clients.
+- Assisted in project decision-making and requirements gathering for various projects.
+- Supported the execution of QA strategies and automation processes for multiple projects.
+- Provided technical consultation on automation and testing best practices for critical projects.
+<br>
 
 ## Skills                    
 
@@ -23,6 +44,7 @@ I adopt a collaborative approach to achieving project goals.  <br>
 - CI with ***Jenkins & Azure DevOps***
 - Intermediate level ***Java***
 - Intermediate level ***Maven***
+- ***X-ray*** Test Management Tool
 <br>
 
 ## Education
