@@ -12,15 +12,16 @@ Experienced in;
 **QA Automation Engineer** ***@[CitizenM Hotels](https://www.citizenm.com/company/overview)*** _(19.06.2023 - Present)_ <br>
 citizenM is a Netherlands-based, global hotel developer, investor, and hotel chain.
 - I was responsible for the website QA process during a database migration project called Sunrise.
-- Along with the website product, involved in the QA process for the UI of the new database product Apaleo.
-- I handled the UI part of the Performance Test at the end of the migration process.
+- Along with the website product, involved in the QA process for the new database product Apaleo.
+- Handled the UI part of the Performance Test at the end of the Sunrise project.
 - During the Sunrise process, I started to support the API QA processes as well.
 - Handled the QA process for the website Nuxt migration project, creating and automating key flow scripts.
 - Proposed and established a test automation stage for deployment pipelines, setting up Slack channels to track results.
 - Became one of the release approvers for the website.
 - Co-led ***QA Scrum processes***, organizing meetings and scrum activities.
-- Supported the mobile app QA team during periods of absence.
-- Established a new ***SDLC model*** for the website product, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
+- Supported QA process of the mobile app during periods of QA absence.
+- ***Established a new SDLC model for the website product***, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
+- Handled the QA process of a content migration project called Headless Marketing content.
 - Proposed the ***X-ray Test Management Tool*** to improve QA processes, handled the integration process for the website team.
 - Led ***Black Friday QA coordination***, overseeing campaign changes and flow tracking.
 - Increased focus on API automation for future cycles.
