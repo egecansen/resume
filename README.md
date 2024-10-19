@@ -53,8 +53,8 @@ Smart Consulting provides information technology, consulting, and telecommunicat
   - BA, Department of Music Sciences
 <br>
 
-# Projects 
 
+# Projects 
 
 ## API/UI Hybrid Test Automation 
 
