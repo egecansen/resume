@@ -1,11 +1,13 @@
 ## About
 
-Experienced Test Automation Engineer with a solid background in software automation, Java, and Object-Oriented Programming principles. 
+Experienced QA Automation Engineer with a solid background in software automation, Java, and Object-Oriented Programming principles. 
 
 Experienced in;
-- Designing and implementing test automation frameworks using ***Selenium***, ***Page Object Model*** design pattern, and ***BDD*** approach.
-- Working with automation tools including ***Selenium***, ***API*** testing tools, and ***Appium*** for mobile automation.
-- Generating comprehensive test reports to facilitate decision-making and enhance software quality.
+- ***Test Automation Frameworks:*** Expertise in designing and implementing frameworks using Selenium, Page Object Model, and BDD.
+- ***Cross-Platform Testing:*** Proficient with automation tools such as Selenium, Appium for mobile testing, and API testing tools to ensure integration across web, mobile, and backend systems.
+- ***QA Processes & Strategy:*** Strong background in defining and optimizing SDLC models, establishing test automation stages, and supporting scrum activities to streamline quality assurance processes.
+- ***Release Management:*** Played a key role in release approval processes, coordinating manual regression testing, validating automation results, and tracking deployment pipelines with real-time updates.
+- ***API Automation:*** Increasing focus on developing and improving API automation for comprehensive end-to-end testing.
 
 ## Experience
 
