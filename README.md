@@ -1,28 +1,24 @@
 ## About
 
-Experienced QA Automation Engineer with a solid background in software automation, Java, and Object-Oriented Programming principles. 
-
 Experienced in;
 - ***Test Automation Frameworks:*** Designing and implementing frameworks using Page Object Model and BDD.
 - ***Cross-Platform Testing:*** Solid experience with automation tools such as Selenium, Appium for mobile testing, and API testing tools to ensure integration across web, mobile, and backend systems.
 - ***QA Processes & Strategy:*** Hands-on experience in defining and optimizing SDLC models, establishing test automation stages, and supporting scrum activities to streamline quality assurance processes.
 - ***Release Management:*** Played a key role in release approval processes, coordinating manual regression testing, validating automation results, and tracking deployment pipelines with real-time updates.
-- ***API Automation:*** Increasing focus on developing and improving API automation for comprehensive end-to-end testing.
 
 ## Experience
 
 **QA Automation Engineer** ***@[citizenM Hotels](https://www.citizenm.com/company/overview)*** _(19.06.2023 - Present)_ <br>
 citizenM is a Netherlands-based, global hotel developer, investor, and hotel chain.
 - Handled website QA process during a database migration project called Sunrise.
-- Played a key role as a QA for the new database product UI.
-- Handled the UI part of the Performance Tests for the Sunrise project.
+- Handled the UI part of the Performance Tests for the backend migration project.
 - During the Sunrise process, started to support the API QA processes.
 - Handled the QA process for the website Nuxt migration project, creating and automating key flow scripts.
 - Proposed and established a test automation stage for deployment pipelines, setting up a Slack channel to track results.
 - Became one of the release approvers for the website.
 - Co-led QA Scrum processes, organizing meetings and scrum activities.
 - Supported QA process of the mobile app during periods of QA absence.
-- Established a new SDLC model for the website product, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
+- Supported a new SDLC model for the website product, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
 - Handled the QA process of a content migration project called Headless Marketing content.
 - Proposed the X-ray Test Management Tool to improve QA processes, handled the integration process for the website team.
 - Led Black Friday QA coordination, overseeing campaign changes and flow tracking.
