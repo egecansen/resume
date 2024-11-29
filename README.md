@@ -11,18 +11,26 @@ Experienced in;
 **QA Automation Engineer** ***@[citizenM Hotels](https://www.citizenm.com/company/overview)*** _(19.06.2023 - Present)_ <br>
 citizenM is a Netherlands-based, global hotel developer, investor, and hotel chain.
 - Handled website QA process during a database migration project called Sunrise.
-- Handled the UI part of the Performance Tests for the backend migration project.
+- Handled the UI part of the ***Performance Tests*** for the backend migration project.
 - During the Sunrise process, started to support the API QA processes.
-- Handled the QA process for the website Nuxt migration project, creating and automating key flow scripts.
-- Proposed and established a test automation stage for deployment pipelines, setting up a Slack channel to track results.
+- Handled the QA process for the website ***Nuxt migration*** project, creating and automating key flow scripts.
+- Proposed and established a test automation stage for website deployment pipelines, setting up a Slack channel to track results.
 - Became one of the release approvers for the website.
-- Co-led QA Scrum processes, organizing meetings and scrum activities.
-- Supported QA process of the mobile app during periods of QA absence.
-- Supported a new SDLC model for the website product, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
+- ***Co-led QA Scrum processes***, organizing meetings and scrum activities.
+- ***Supported QA process of the mobile app*** during periods of QA absence.
+- ***Supported a new SDLC model*** for the website product, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
 - Handled the QA process of a content migration project called Headless Marketing content.
-- Proposed the X-ray Test Management Tool to improve QA processes, handled the integration process for the website team.
+- Proposed the ***X-ray Test Management Tool*** to improve QA processes, handled the integration process for the website team.
 - Led Black Friday QA coordination, overseeing campaign changes and flow tracking.
-- Increased focus on API automation for future cycles.
+- Increased focus on ***API automation*** for future cycles.
+
+**Key Projects at citizenM Hotels:**
+
+***Sunrise Database Migration Project:*** Handled website QA processes and performed UI performance tests for backend migration.
+***Nuxt Migration Project:*** Automated key flows and ensured smooth migration to Nuxt framework.
+***Headless Marketing Content Migration:*** Oversaw QA testing for migrating content to the new content management system.
+***Xray Test Management Tool Setup:*** Proposed for QA processes and configured for the website, enhancing test tracking, execution, and reporting processes.
+***Black Friday Campaign QA Coordination:*** Led QA efforts to ensure successful campaign implementation and flow tracking.
 
 **Automation Engineer** ***@[Smart Nearshore](https://www.smartconsulting.pt/en/services/nearshore)*** _(19.06.2023 - Present)_ <br>
 Smart Consulting provides information technology, consulting, and telecommunications services.
