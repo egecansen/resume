@@ -24,7 +24,7 @@ citizenM is a Netherlands-based, global hotel developer, investor, and hotel cha
 - Handled the QA process of a content migration project called Headless Marketing content.
 - Led Black Friday QA coordination, overseeing campaign changes and flow tracking.
 
-**Key Projects at citizenM Hotels:**
+**Key Projects**
 
 - ***Sunrise Database Migration Project:*** Handled website QA processes and performed UI performance tests for backend migration.
 - ***Nuxt Migration Project:*** Automated key flows and ensured smooth migration to Nuxt framework.
