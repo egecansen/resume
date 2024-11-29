@@ -11,18 +11,18 @@ Experienced in;
 **QA Automation Engineer** ***@[citizenM Hotels](https://www.citizenm.com/company/overview)*** _(19.06.2023 - Present)_ <br>
 citizenM is a Netherlands-based, global hotel developer, investor, and hotel chain.
 - Handled website QA process during a database migration project called Sunrise.
-- Handled the UI part of the ***Performance Tests*** for the backend migration project.
 - During the Sunrise process, started to support the API QA processes.
+- Handled the UI part of the ****Performance Tests*** for the backend migration project.
 - Handled the QA process for the website ***Nuxt migration*** project, creating and automating key flow scripts.
-- Proposed and established a test automation stage for website deployment pipelines, setting up a Slack channel to track results.
-- Became one of the release approvers for the website.
+- ****Proposed and established a test automation stage for website deployment pipelines****, setting up a Slack channel to track results.
 - ***Co-led QA Scrum processes***, organizing meetings and scrum activities.
 - ***Supported QA process of the mobile app*** during periods of QA absence.
-- ***Supported a new SDLC model*** for the website product, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
-- Handled the QA process of a content migration project called Headless Marketing content.
-- Proposed the ***X-ray Test Management Tool*** to improve QA processes, handled the integration process for the website team.
-- Led Black Friday QA coordination, overseeing campaign changes and flow tracking.
+- ***Supported new SDLC models*** for the website product and the content management system, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
 - Increased focus on ***API automation*** for future cycles.
+- Proposed the ***X-ray Test Management Tool*** to improve QA processes, handled the integration process for the website team.
+- Became one of the release approvers for the website.
+- Handled the QA process of a content migration project called Headless Marketing content.
+- Led Black Friday QA coordination, overseeing campaign changes and flow tracking.
 
 **Key Projects at citizenM Hotels:**
 
