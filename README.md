@@ -16,7 +16,7 @@ citizenM is a Netherlands-based, global hotel developer, investor, and hotel cha
 - Proposed and ***established a test automation stage for website*** deployment pipelines, setting up a Slack channel to track results.
 - ***Co-led QA Scrum processes***, organizing meetings and scrum activities.
 - ***Supported QA process of the mobile app*** during periods of QA absence.
-- ***Adjusted SDLC models*** for the website product and the content management system based on the main model, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
+- ***Adjusted new SDLC models*** for the website product and the content management system based on the main model, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
 - Increased focus on ***API automation*** for future cycles.
 - Proposed the ***X-ray Test Management Tool*** to improve QA processes, handled the integration process for the website team.
 - Became one of the release approvers for the website.
