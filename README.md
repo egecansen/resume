@@ -13,7 +13,7 @@ citizenM is a Netherlands-based, global hotel developer, investor, and hotel cha
 - Handled website QA process during a database migration project called Sunrise.
 - Handled the UI part of the ***Performance Tests*** for the backend migration project.
 - Handled the QA process for the website ***Nuxt migration*** project, creating and automating key flow scripts.
-- Proposed and ***established a test automation stage for website deployment pipelines***, setting up a Slack channel to track results.
+- Proposed and ***established a test automation stage for website*** deployment pipelines, setting up a Slack channel to track results.
 - ***Co-led QA Scrum processes***, organizing meetings and scrum activities.
 - ***Supported QA process of the mobile app*** during periods of QA absence.
 - ***Supported new SDLC models*** for the website product and the content management system, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
