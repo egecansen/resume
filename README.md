@@ -26,11 +26,11 @@ citizenM is a Netherlands-based, global hotel developer, investor, and hotel cha
 
 **Key Projects at citizenM Hotels:**
 
-***Sunrise Database Migration Project:*** Handled website QA processes and performed UI performance tests for backend migration.
-***Nuxt Migration Project:*** Automated key flows and ensured smooth migration to Nuxt framework.
-***Headless Marketing Content Migration:*** Oversaw QA testing for migrating content to the new content management system.
-***Xray Test Management Tool Setup:*** Proposed for QA processes and configured for the website, enhancing test tracking, execution, and reporting processes.
-***Black Friday Campaign QA Coordination:*** Led QA efforts to ensure successful campaign implementation and flow tracking.
+- ***Sunrise Database Migration Project:*** Handled website QA processes and performed UI performance tests for backend migration.
+- ***Nuxt Migration Project:*** Automated key flows and ensured smooth migration to Nuxt framework.
+- ***Headless Marketing Content Migration:*** Oversaw QA testing for migrating content to the new content management system.
+- ***Xray Test Management Tool Setup:*** Proposed for QA processes and configured for the website, enhancing test tracking, execution, and reporting processes.
+- ***Black Friday Campaign QA Coordination:*** Led QA efforts to ensure successful campaign implementation and flow tracking.
 
 **Automation Engineer** ***@[Smart Nearshore](https://www.smartconsulting.pt/en/services/nearshore)*** _(19.06.2023 - Present)_ <br>
 Smart Consulting provides information technology, consulting, and telecommunications services.
