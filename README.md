@@ -73,6 +73,7 @@ Smart Consulting provides information technology, consulting, and telecommunicat
 - [ISTQB Foundation Level (CTFL)](https://app.diplomasafe.com/en-US/diploma/d6986af934382732dc7c4c93486d8072d37f79e92)
 <br>
 
+
 # Projects 
 
 ## API/UI Hybrid Test Automation 
