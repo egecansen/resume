@@ -31,7 +31,7 @@ citizenM is a Netherlands-based, global hotel developer, investor, and hotel cha
 - ***Xray Test Management Tool Setup:*** Proposed for QA processes and configured for the website, enhancing test tracking, execution, and reporting processes.
 - ***Black Friday Campaign QA Coordination:*** Led QA efforts to ensure successful campaign implementation and flow tracking.
 
-**Automation Engineer** ***@[Smart Nearshore](https://www.smartconsulting.pt/en/services/nearshore)*** _(19.06.2023 - Present)_ <br>
+**Automation Tester** ***@[Smart Nearshore](https://www.smartconsulting.pt/en/services/nearshore)*** _(19.06.2023 - Present)_ <br>
 Smart Consulting provides information technology, consulting, and telecommunications services.
 - Providing outsourced services to key clients.
 - Assisted in project decision-making and requirements gathering for various projects.
