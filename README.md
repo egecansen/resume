@@ -32,7 +32,7 @@ citizenM is a Netherlands-based, global hotel developer, investor, and hotel cha
 - ***Black Friday Campaign QA Coordination:*** Led QA efforts to ensure successful campaign implementation and flow tracking.
 
 **Automation Tester** ***@[Smart Nearshore](https://www.smartconsulting.pt/en/services/nearshore)*** _(19.06.2023 - Present)_ <br>
-Smart is a Portugal based company that provides information technology and consulting.
+Smart is a Portugal-based company that provides information technology and consulting.
 - Providing outsourced services to key clients.
 - Assisted in project decision-making and requirements gathering for various projects.
 - Supported the execution of QA strategies and automation processes for multiple projects.
