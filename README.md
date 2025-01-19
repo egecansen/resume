@@ -44,7 +44,7 @@ Smart Consulting provides information technology, consulting, and telecommunicat
 - Contributed to open-source libraries, improving their functionality and expanding Java-based automation capabilities.
 - Created reusable project templates and utilities to standardize common methods and interactions, boosting efficiency for future projects.
 - Co-developed the [GPT-Utilities](https://github.com/Umutayb/GPT-Utilities) library, introducing AI-powered features to enhance automation workflows.
-- Built an AI-supported chat integration for the [Pickleib](https://github.com/Umutayb/Pickleib), enabling seamless user interaction and query handling.
+- Built an AI-supported chat integration for the [Pickleib](https://github.com/Umutayb/Pickleib) library, enabling user interaction and query handling.
 - Continuously integrated innovative technologies into automation processes to enhance productivity and scalability.
 
 ## Skills                    
