@@ -65,7 +65,7 @@ Smart Consulting provides information technology, consulting, and telecommunicat
 
 - Music Technology - BA, Department of Music Sciences
   - Dokuz Eylul University
-- Protohistory and Near Eastern Archaeology - BA, Faculty of Letters Department of Archaeology 
+- Protohistory and Near Eastern Archaeology - BA, Faculty of Letters
   - Ege University
   <br>
   
