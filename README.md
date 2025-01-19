@@ -61,12 +61,17 @@ Smart Consulting provides information technology, consulting, and telecommunicat
 - ***X-ray*** Test Management Tool
 <br>
 
-## Education
+## Education 
 
-- Dokuz Eylül University - Music Technology
-  - BA, Department of Music Sciences
+- Music Technology - BA, Department of Music Sciences
+  - Dokuz Eylul University
+- Protohistory and Near Eastern Archaeology - BA, Faculty of Letters Department of Archaeology 
+  - Ege University
+  <br>
+  
+## Certificates
+- [ISTQB Foundation Level (CTFL)](https://app.diplomasafe.com/en-US/diploma/d6986af934382732dc7c4c93486d8072d37f79e92)
 <br>
-
 
 # Projects 
 
