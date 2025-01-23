@@ -83,7 +83,7 @@ Smart is a Portugal-based company that provides information technology and consu
 - Additionally, I wrote step classes that seamlessly integrated the methods within the page objects with the ***Cucumber*** steps, enhancing the readability and reusability of the test scripts.
 - This project is build using basic principles of ***OOP***, combines ***BDD*** with Selenium to test integrity of the website.
 - The modular structure of the framework makes it highly scalable, allowing for seamless expansion of future tests on this specific website.
-- Project page -> ***[ToolsQA Test Automation](https://github.com/egecansen/DemoQA)***
+- Project page -> ***[ToolsQA Test Automation](https://github.com/egecansen/ToolsQA)***
   
   ![Sample Project QR](/assets/img/toolsqa-qr.png)
 
