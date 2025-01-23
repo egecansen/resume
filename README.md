@@ -19,9 +19,9 @@ citizenM is a Netherlands-based, global hotel developer, investor, and hotel cha
 - ***Adjusted new SDLC models*** for the website product and the content management system based on the main model, defining testing stages and workflows. Created SDLC documentation for both the website team and the Contentful product.
 - Increased focus on ***API automation*** for future cycles.
 - Proposed the ***X-ray Test Management Tool*** to improve QA processes, handled the integration process for the website team.
-- Became one of the release approvers for the website.
+- ***Became one of the release approvers for the website.***
 - Handled the QA process of a content migration project called Headless Marketing content.
-- Led Black Friday QA coordination, overseeing campaign changes and flow tracking.
+- ***Led Black Friday QA coordination***, overseeing campaign changes and flow tracking.
 
 **Key Projects**
 
