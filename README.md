@@ -2,8 +2,8 @@
 
 Experienced in;
 - ***Test Automation Frameworks:*** Designing and implementing frameworks using Page Object Model and BDD.
-- ***Cross-Platform Testing:*** Experience with automation tools such as Selenium, Appium for mobile testing, and API testing tools to ensure integration across web, mobile, and backend systems.
-- ***QA Processes & Strategy:*** Experience in defining and optimizing SDLC models, establishing test automation stages, and supporting scrum activities to streamline quality assurance processes.
+- ***Cross-Platform Testing:*** Automation tools such as Selenium, Appium for mobile testing, and API testing tools to ensure integration across web, mobile, and backend systems.
+- ***QA Processes & Strategy:*** Optimizing SDLC models, establishing test automation stages, and supporting scrum activities to streamline quality assurance processes.
 - ***Release Management:*** Played a key role in release approval processes, coordinating manual regression testing, validating automation results, and tracking deployment pipelines with real-time updates.
 
 ## Experience
