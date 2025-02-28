@@ -34,9 +34,9 @@ jobs:
         run: ls -alh ./_site  # Check that the _site directory is created and contains the correct files
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v4  # Update to v4 for the latest version
         with:
-          path: ./_site  # Make sure the path is correct for the artifact upload
+          path: ./_site  # Ensure the correct path to upload the site
 
   deploy:
     environment:
