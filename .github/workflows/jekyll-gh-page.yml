@@ -34,7 +34,7 @@ jobs:
         run: ls -alh ./_site  # Check that the _site directory is created and contains the correct files
 
       - name: Upload artifact
-        uses: actions/upload-artifact@latest  # Use the latest version of the artifact action
+        uses: actions/upload-artifact@v2  # Correct version for artifact upload (v2 is reliable)
         with:
           path: ./_site  # Ensure the correct path to upload the site
 
