@@ -39,6 +39,7 @@ jobs:
           if [ ! -d "_site" ]; then
             echo "Error: _site directory not found."
             exit 1
+          fi
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
