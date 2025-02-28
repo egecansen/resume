@@ -34,16 +34,12 @@ jobs:
           ruby-version: 3.1
           bundler-cache: true
 
-      - name: Ensure a clean Gem environment
-        run: |
-          rm -f Gemfile.lock
-          bundle config set --local path 'vendor/bundle'
-
       - name: Ensure Gemfile exists
         run: |
           if [ ! -f "Gemfile" ]; then
             echo 'source "https://rubygems.org"' > Gemfile
             echo 'gem "jekyll", "~> 4.4.1"' >> Gemfile
+            echo 'gem "jekyll-remote-theme"' >> Gemfile  # Ensures jekyll-remote-theme is included
           fi
 
       - name: Install Bundler and dependencies
