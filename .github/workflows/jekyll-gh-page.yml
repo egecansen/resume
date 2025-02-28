@@ -21,30 +21,33 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+
+      - name: Install Jekyll and dependencies
+        run: |
+          gem install jekyll
+          bundle install
 
       - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site  # This is where Jekyll will output the generated files
+        run: bundle exec jekyll build --destination ./_site
 
       - name: List contents of _site directory
         run: ls -alh ./_site  # Check that the _site directory is created and contains the correct files
 
-      - name: Upload artifact to Pages
-        uses: actions/upload-pages-artifact@v1  # Correct version for Pages artifact upload
-        with:
-          path: ./_site  # Path to the Jekyll generated site files
-
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v1
+        with:
+          path: ./_site
