@@ -34,9 +34,16 @@ jobs:
           ruby-version: 3.1
           bundler-cache: true
 
-      - name: Install Jekyll and dependencies
+      - name: Ensure Gemfile exists
         run: |
-          gem install jekyll
+          if [ ! -f "Gemfile" ]; then
+            echo 'source "https://rubygems.org"' > Gemfile
+            echo 'gem "jekyll", "~> 4.4.1"' >> Gemfile
+          fi
+
+      - name: Install Bundler and dependencies
+        run: |
+          gem install bundler
           bundle install
 
       - name: Build with Jekyll
