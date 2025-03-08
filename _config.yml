@@ -23,7 +23,7 @@ sidebar:
     link: mailto:benegecansen@gmail.com
   - name: Download PDF
     icon: <i class="fa-solid fa-file-pdf"></i>
-    link: /assets/files/Egecan Sen - Resume.pdf
+    link: https://raw.githubusercontent.com/egecansen/website-repo/main/assets/files/Egecan Sen - Resume.pdf
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
 # When running locally, we run into the following error —
 # GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
