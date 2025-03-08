@@ -9,6 +9,7 @@ gem 'securerandom', '~> 0.3'
 # commenting below to remove dependency with "github-pages" 
 # gem "github-pages", group: :jekyll_plugins
 
+gem 'nokogiri', '~> 1.18.3', platforms: :ruby
 gem "jekyll", "~> 4.2.2"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
