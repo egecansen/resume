@@ -168,7 +168,7 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/usr/local/lib "gcc -o conftest -I/usr/local/include/ruby-3.1.0/x86_64-linux-musl -I/usr/local/include/ruby-3.1.0/ruby/backward -I/usr/local/include/ruby-3.1.0 -I.     -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC  conftest.c  -L. -L/usr/local/lib -Wl,-rpath,/usr/local/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/usr/local/lib -L/usr/local/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm  -lc"
-/usr/lib/gcc/x86_64-alpine-linux-musl/10.3.1/../../../../x86_64-alpine-linux-musl/bin/ld: /tmp/ccghNjGb.o: in function `t':
+/usr/lib/gcc/x86_64-alpine-linux-musl/10.3.1/../../../../x86_64-alpine-linux-musl/bin/ld: /tmp/cccPoDEl.o: in function `t':
 /srv/jekyll/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/conftest.c:15: undefined reference to `rb_thread_blocking_region'
 collect2: error: ld returned 1 exit status
 checked program was:
@@ -340,7 +340,7 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/usr/local/lib "gcc -o conftest -I/usr/local/include/ruby-3.1.0/x86_64-linux-musl -I/usr/local/include/ruby-3.1.0/ruby/backward -I/usr/local/include/ruby-3.1.0 -I.     -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef  -fPIC  conftest.c  -L. -L/usr/local/lib -Wl,-rpath,/usr/local/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed      -lssl -lcrypto -lcrypto -lssl -Wl,-rpath,/usr/local/lib -L/usr/local/lib -lruby  -lssl -lcrypto -lcrypto -lssl -lm  -lc"
-/usr/lib/gcc/x86_64-alpine-linux-musl/10.3.1/../../../../x86_64-alpine-linux-musl/bin/ld: /tmp/ccbllJeN.o: in function `t':
+/usr/lib/gcc/x86_64-alpine-linux-musl/10.3.1/../../../../x86_64-alpine-linux-musl/bin/ld: /tmp/ccgMiAAP.o: in function `t':
 /srv/jekyll/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/conftest.c:15: undefined reference to `rb_enable_interrupt'
 collect2: error: ld returned 1 exit status
 checked program was:

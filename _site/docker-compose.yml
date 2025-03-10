@@ -1,6 +1,8 @@
 version: '3'
 services:
   jekyll:
+    image: jekyll/jekyll
+    user: root
     build: .
     ports:
       - "4000:4000"
@@ -9,6 +11,7 @@ services:
       - gem-cache:/usr/local/bundle
     environment:
       - JEKYLL_ENV=development
+    command: jekyll serve --watch --force_polling --host 0.0.0.0
 
 volumes:
   gem-cache:

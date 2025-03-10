@@ -3,10 +3,10 @@ current directory: /srv/jekyll/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.
 creating Makefile
 
 current directory: /srv/jekyll/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20250307-1-ip0zl3 sitelibdir\=./.gem.20250307-1-ip0zl3 clean
+make DESTDIR\= sitearchdir\=./.gem.20250310-1-w4swxp sitelibdir\=./.gem.20250310-1-w4swxp clean
 
 current directory: /srv/jekyll/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20250307-1-ip0zl3 sitelibdir\=./.gem.20250307-1-ip0zl3
+make DESTDIR\= sitearchdir\=./.gem.20250310-1-w4swxp sitelibdir\=./.gem.20250310-1-w4swxp
 compiling ruby_http_parser.c
 ruby_http_parser.c: In function 'Parser_execute':
 ruby_http_parser.c:365:17: warning: comparison of integer expressions of different signedness: 'size_t' {aka 'long unsigned int'} and 'long int' [-Wsign-compare]
@@ -24,5 +24,5 @@ compiling ryah_http_parser.c
 linking shared-object ruby_http_parser.so
 
 current directory: /srv/jekyll/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20250307-1-ip0zl3 sitelibdir\=./.gem.20250307-1-ip0zl3 install
-/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20250307-1-ip0zl3
+make DESTDIR\= sitearchdir\=./.gem.20250310-1-w4swxp sitelibdir\=./.gem.20250310-1-w4swxp install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20250310-1-w4swxp

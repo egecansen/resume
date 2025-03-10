@@ -28,14 +28,14 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /srv/jekyll/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250307-1-sgw8ne sitelibdir\=./.gem.20250307-1-sgw8ne clean
+make DESTDIR\= sitearchdir\=./.gem.20250310-1-q36o4m sitelibdir\=./.gem.20250310-1-q36o4m clean
 
 current directory: /srv/jekyll/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250307-1-sgw8ne sitelibdir\=./.gem.20250307-1-sgw8ne
+make DESTDIR\= sitearchdir\=./.gem.20250310-1-q36o4m sitelibdir\=./.gem.20250310-1-q36o4m
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.so
 
 current directory: /srv/jekyll/vendor/bundle/ruby/3.1.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250307-1-sgw8ne sitelibdir\=./.gem.20250307-1-sgw8ne install
-/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20250307-1-sgw8ne
+make DESTDIR\= sitearchdir\=./.gem.20250310-1-q36o4m sitelibdir\=./.gem.20250310-1-q36o4m install
+/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20250310-1-q36o4m
