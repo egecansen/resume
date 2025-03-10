@@ -4,7 +4,6 @@ layout: default
 
 ## About
 
-Experienced in;
 - ***Test Automation Frameworks:*** Designing and implementing frameworks using Page Object Model and BDD.
 - ***Cross-Platform Testing:*** Automation tools such as Selenium, Appium for mobile testing, and API testing tools to ensure integration across web, mobile, and backend systems.
 - ***QA Processes & Strategy:*** Optimizing SDLC models, establishing test automation stages, and supporting scrum activities to streamline quality assurance processes.
@@ -12,7 +11,7 @@ Experienced in;
 
 ## Experience
 
-**QA Automation Engineer** ***@[citizenM Hotels](https://www.citizenm.com/company/overview){:target="_blank" rel="noopener noreferrer"}*** _(19.06.2023 - Present)_ <br>
+**QA Automation Engineer** ***[@citizenM Hotels](https://www.citizenm.com/company/overview){:target="_blank" rel="noopener noreferrer"}*** _(19.06.2023 - Present)_ <br>
 citizenM is a Netherlands-based, global hotel developer, investor, and hotel chain.
 - Handled website QA process during a database migration project called Sunrise.
 - Handled the UI part of the ***Performance Tests*** for the backend migration project.
@@ -36,7 +35,7 @@ citizenM is a Netherlands-based, global hotel developer, investor, and hotel cha
 - ***Black Friday Campaign QA Coordination:*** Led QA efforts to ensure successful campaign implementation and flow tracking.
 
 
-**Automation Tester** ***@[Smart Nearshore](https://www.smartconsulting.pt/en/services/nearshore){:target="_blank" rel="noopener noreferrer"}*** _(19.06.2023 - Present)_ <br>
+**Test Automation Engineer** ***[@Smart Nearshore](https://www.smartconsulting.pt/en/services/nearshore){:target="_blank" rel="noopener noreferrer"}*** _(19.06.2023 - Present)_ <br>
 Smart is a Portugal-based company that provides information technology and consulting.
 - Providing outsourced services to key clients.
 - Assisted in project decision-making and requirements gathering for various projects.
