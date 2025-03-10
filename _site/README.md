@@ -1,1 +1,1 @@
-# Egecan Sen - Resum
+# Egecan Sen - Resume

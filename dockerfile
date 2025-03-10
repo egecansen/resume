@@ -1,6 +1,9 @@
 # Use the official Jekyll image as the base image
 FROM jekyll/jekyll:4.2.2
 
+RUN apk add --no-cache build-base libsass-dev
+RUN apk add --no-cache build-base libffi-dev ruby-dev sassc
+
 # Set the working directory inside the container
 WORKDIR /srv/jekyll
 
@@ -13,6 +16,9 @@ RUN apk update
 # Install system dependencies for gem installation
 RUN apk add --no-cache build-base libffi-dev libxml2-dev libxslt-dev \
     openssl-dev readline-dev zlib-dev
+
+RUN apk add --no-cache build-base libffi-dev libsass    
+
 
 # Ensure the working directory has the correct permissions
 RUN chown -R jekyll:jekyll /srv/jekyll

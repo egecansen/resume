@@ -3,10 +3,10 @@ current directory: /srv/jekyll/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
 creating Makefile
 
 current directory: /srv/jekyll/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20250307-1-tepm1u sitelibdir\=./.gem.20250307-1-tepm1u clean
+make DESTDIR\= sitearchdir\=./.gem.20250310-1-b56wny sitelibdir\=./.gem.20250310-1-b56wny clean
 
 current directory: /srv/jekyll/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20250307-1-tepm1u sitelibdir\=./.gem.20250307-1-tepm1u
+make DESTDIR\= sitearchdir\=./.gem.20250310-1-b56wny sitelibdir\=./.gem.20250310-1-b56wny
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -76,5 +76,5 @@ compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.so
 
 current directory: /srv/jekyll/vendor/bundle/ruby/3.1.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20250307-1-tepm1u sitelibdir\=./.gem.20250307-1-tepm1u install
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20250307-1-tepm1u/sassc
+make DESTDIR\= sitearchdir\=./.gem.20250310-1-b56wny sitelibdir\=./.gem.20250310-1-b56wny install
+/usr/bin/install -c -m 0755 libsass.so ./.gem.20250310-1-b56wny/sassc
