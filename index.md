@@ -35,7 +35,7 @@ citizenM is a Netherlands-based, global hotel developer, investor, and hotel cha
 - ***Black Friday Campaign QA Coordination:*** Led QA efforts to ensure successful campaign implementation and flow tracking.
 
 
-**Test Automation Engineer** ***[@Smart Nearshore](https://www.smartconsulting.pt/en/services/nearshore){:target="_blank" rel="noopener noreferrer"}*** _(19.06.2023 - Present)_ <br>
+**Test Automation Engineer** ***[@Smart Nearshore](https://www.smartconsulting.pt/en/services/nearshore){:target="_blank" rel="noopener noreferrer"}*** _(19.06.2023 - 01.04.2025)_ <br>
 Smart is a Portugal-based company that provides information technology and consulting.
 - Providing outsourced services to key clients.
 - Assisted in project decision-making and requirements gathering for various projects.
@@ -43,7 +43,7 @@ Smart is a Portugal-based company that provides information technology and consu
 - Provided technical consultation on automation and testing best practices for critical projects.
 <br>
 
-**Automation Engineer** _(08.08.2022 – Present)_ <br>
+**Automation Engineer** _(08.08.2022 – 09.04.2025)_ <br>
 - Developed comprehensive automation frameworks for diverse use cases, including UI testing and API interactions.
 - Contributed to open-source libraries, improving their functionality and expanding Java-based automation capabilities.
 - Created reusable project templates and utilities to standardize common methods and interactions, boosting efficiency for future projects.
