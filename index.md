@@ -56,6 +56,7 @@ Smart is a Portugal-based company that provides information technology and consu
 - ***Selenium*** - UI Automation
 - ***Appium*** - Mobile UI Automation
 - ***Cucumber*** - BDD
+- ***Postman*** - API Testing
 - ***Retrofit & OkHttp*** - API Test Automation
 - ***Git*** - Version control
 - Performance Testing with ***OctoPerf***
