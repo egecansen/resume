@@ -1,4 +1,4 @@
-I"j0<h2 id="about">About</h2>
+I"15<h2 id="about">About</h2>
 <p>Experienced in;</p>
 <ul>
   <li><strong><em>Test Automation Frameworks:</em></strong> Designing and implementing frameworks using Page Object Model and BDD.</li>
@@ -9,7 +9,7 @@
 
 <h2 id="experience">Experience</h2>
 
-<p><strong>QA Automation Engineer</strong> <strong><em><a href="https://www.citizenm.com/company/overview" target="_blank" rel="noopener noreferrer">@citizenM Hotels</a></em></strong> <em>(19.06.2023 - 01.04.2025)</em> <br />
+<p><strong>QA Automation Engineer</strong> <strong><em><a href="https://www.citizenm.com/company/overview" target="_blank" rel="noopener noreferrer">@citizenM Hotels</a></em></strong> <em>(19.06.2023 - Present)</em> <br />
 citizenM is a Netherlands-based, global hotel developer, investor, and hotel chain.</p>
 <ul>
   <li>Handled website QA process during a database migration project called Sunrise.</li>
@@ -36,7 +36,7 @@ citizenM is a Netherlands-based, global hotel developer, investor, and hotel cha
   <li><strong><em>Black Friday Campaign QA Coordination:</em></strong> Led QA efforts to ensure successful campaign implementation and flow tracking.</li>
 </ul>
 
-<p><strong>Test Automation Engineer</strong> <strong><em><a href="https://www.smartconsulting.pt/en/services/nearshore" target="_blank" rel="noopener noreferrer">@Smart Nearshore</a></em></strong> <em>(19.06.2023 - 09.04.2025)</em> <br />
+<p><strong>Test Automation Engineer</strong> <strong><em><a href="https://www.smartconsulting.pt/en/services/nearshore" target="_blank" rel="noopener noreferrer">@Smart Nearshore</a></em></strong> <em>(19.06.2023 - Present)</em> <br />
 Smart is a Portugal-based company that provides information technology and consulting.</p>
 <ul>
   <li>Providing outsourced services to key clients.</li>
@@ -97,47 +97,43 @@ Smart is a Portugal-based company that provides information technology and consu
 
 <h1 id="projects">Projects</h1>
 
-<h2 id="apiui-hybrid-test-automation">API/UI Hybrid Test Automation</h2>
+<h2 id="unified-automation-template">Unified-Automation-Template</h2>
 
 <ul>
-  <li>In this project, I created a UI automation framework, using <strong><em>Selenium &amp; Cucumber</em></strong>.</li>
-  <li>By implementing the <strong><em>Page Object Model (POM)</em></strong> design pattern, created separate page objects for each page, ensuring a modular and maintainable test framework.</li>
-  <li>Additionally, I wrote step classes that seamlessly integrated the methods within the page objects with the <strong><em>Cucumber</em></strong> steps, enhancing the readability and reusability of the test scripts.</li>
-  <li>This project is build using basic principles of <strong><em>OOP</em></strong>, combines <strong><em>BDD</em></strong> with Selenium to test integrity of the website.</li>
-  <li>The modular structure of the framework makes it highly scalable, allowing for seamless expansion of future tests on this specific website.</li>
-  <li>
-    <p>Project page -&gt; <strong><em><a href="https://github.com/egecansen/ToolsQA" target="_blank" rel="noopener noreferrer">ToolsQA Test Automation</a></em></strong></p>
-
-    <p><img src="/assets/img/toolsqa-qr.png" alt="Sample Project QR" /></p>
-  </li>
+  <li>The Unified Automation Template is build upon Pickleib library using the ObjectRepository feature.</li>
+  <li>Multi-Platform Testing: Supports Web UI, Mobile UI, and API automation.</li>
+  <li>Scenario Tagging: Enables running specific test scenarios using tags.</li>
+  <li>Customizable Driver Selection: Defaults to Chrome for Web UI, with the option to choose other drivers.</li>
+  <li>Headless Execution: Supports headless mode via configuration.</li>
+  <li>Project page -&gt; <strong><em><a href="https://github.com/egecansen/Unified-Automation-Template/tree/main" target="_blank" rel="noopener noreferrer">Unified-Automation-Template</a></em></strong></li>
 </ul>
 
 <p>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</p>
 
-<h2 id="api-automation">API Automation</h2>
+<h2 id="simplified-automation-template">Simplified-Automation-Template</h2>
 
 <ul>
-  <li>This project is an API service that interacts with the PetStore database to perform various CRUD operations. The API service provides a convenient and easy-to-use interface for managing the database.</li>
-  <li>Additionally, this project serves as a valuable template for future API automation projects. Its comprehensive functionality make it an ideal starting point for building similar solutions, saving time and effort in development.</li>
-  <li>
-    <p>Project page -&gt;  <strong><em><a href="https://github.com/egecansen/Api-Sample" target="_blank" rel="noopener noreferrer">API Automation Template</a></em></strong></p>
-
-    <p><img src="/assets/img/api1-qr.png" alt="Sample Project QR" /></p>
-  </li>
+  <li>This project is a template project that includes UI &amp; API interactions.</li>
+  <li>The Web-UI part of the project is based on Selenium &amp; Cucumber and the API part is based on Okhttp &amp; Retrofit. I used open-source libraries that I contribute to, such as Pickleib and Java-Utilities.</li>
+  <li>The CommonSteps class stores the generic UI steps and saves us from the repeated code.</li>
+  <li>The ObjectRepository class is used for storing the page object instances; the page objects are automatically instantiated when the element of that page is interacted with.</li>
+  <li>The PageObject class is for overwriting Selenium’s default field decorator to be able to use WebComponents.</li>
+  <li>You can find the cucumber test reports under the reports directory in resources folder. After the run is completed you can find the generated results in the target directory under the reports folder.</li>
+  <li>Project page -&gt;  <strong><em><a href="https://github.com/egecansen/Simplified-Automation-Template" target="_blank" rel="noopener noreferrer">Simplified-Automation-Template</a></em></strong></li>
 </ul>
 
 <p>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</p>
 
-<h2 id="mobile-automation">Mobile Automation</h2>
+<h2 id="appium-springboot-template">Appium-Springboot-Template</h2>
 
 <ul>
-  <li>This project is an exemplary framework designed for testing mobile applications. It leverages Appium to establish a dependable and effective testing solution.</li>
-  <li>This framework serves as a useful template for future mobile application testing projects. It provides a solid foundation that can be customized and expanded upon, saving time and effort in developing new automation frameworks.</li>
-  <li>
-    <p>Project page -&gt;  <strong><em><a href="https://github.com/egecansen/Appium-Test-Sample" target="_blank" rel="noopener noreferrer">Mobile Automation Template</a></em></strong></p>
-
-    <p><img src="/assets/img/mobile1-qr.png" alt="Sample Project QR" /></p>
-  </li>
+  <li>This project is a automation testing framework built with JUnit 5, Appium, and Spring Boot, designed to support mobile automation.</li>
+  <li>Project is designed for CI/CD integration using Jenkins and Docker. All dependencies are installed inside the Jenkins container automatically.</li>
+  <li>UI automation follows the Page Object Model for clarity and maintainability.</li>
+  <li>API tests use a custom library layered on Retrofit &amp; OkHttp for seamless integration and request handling.</li>
+  <li>The project uses a Maven multi-module layout, where tests and post-report are sibling modules under a common parent.</li>
+  <li>Reports are generated via Maven Surefire. The HTML report can be emailed by providing credentials and setting the send-report-email property to true.</li>
+  <li>Project page -&gt;  <strong><em><a href="https://github.com/egecansen/Appium-Springboot-Template" target="_blank" rel="noopener noreferrer">Appium-Springboot-Template</a></em></strong></li>
 </ul>
 
 <p>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</p>
@@ -145,31 +141,47 @@ Smart is a Portugal-based company that provides information technology and consu
 <h2 id="open-source-project-contributions">Open-Source Project Contributions</h2>
 
 <ul>
-  <li><strong><em><a href="https://github.com/Umutayb/Pickleib" target="_blank" rel="noopener noreferrer">Pickleib</a></em></strong>
+  <li><strong><em><a href="https://github.com/egecansen/Pickleib" target="_blank" rel="noopener noreferrer">Pickleib</a></em></strong>
     <ul>
       <li>Improved documentation, added new methods, property configurations and scalability for future upgrades.</li>
       <li>A MongoDB database was created containing methods and documentation of the Pickleib library.</li>
-      <li>Added chat support functionality. This feature leverages the OpenAI API and MongoDB Atlas API services along with the GPT utilities library. By seamlessly integrating chatGPT with the MongoDB database, the chat support feature provides a dynamic and engaging environment for users. This allows them to get support and retrieve method information and application examples from the Pickleib library.</li>
+      <li>
+        <p>Added chat support functionality. This feature leverages the OpenAI API and MongoDB Atlas API services along with the GPT utilities library. By seamlessly integrating chatGPT with the MongoDB database, the chat support feature provides a dynamic and engaging environment for users. This allows them to get support and retrieve method information and application examples from the Pickleib library.</p>
+
+        <p><a href="https://mvnrepository.com/artifact/io.github.umutayb/pickleib/latest"><img src="https://img.shields.io/maven-central/v/io.github.umutayb/pickleib?color=brightgreen&amp;label=Pickleib" alt="Maven Central" /></a></p>
+      </li>
     </ul>
   </li>
-  <li><strong><em><a href="https://github.com/Umutayb/GPT-Utilities" target="_blank" rel="noopener noreferrer">GPT-Utilities</a></em></strong>
+  <li><strong><em><a href="https://github.com/egecansen/GPT-Utilities" target="_blank" rel="noopener noreferrer">GPT-Utilities</a></em></strong>
     <ul>
       <li>This library utilizes the OpenAI API service to provide inner GPT functionality for Java projects.</li>
       <li>It offers various features such as chat support, data generation, and more, which can be seamlessly integrated into any Java project.</li>
-      <li>I established the initial framework and set up the foundation for API usage. Additionally, I provided support throughout the development process.</li>
+      <li>
+        <p>I established the initial framework and set up the foundation for API usage. Additionally, I provided support throughout the development process.</p>
+
+        <p><a href="https://mvnrepository.com/artifact/io.github.umutayb/gpt-utilities/latest"><img src="https://img.shields.io/maven-central/v/io.github.umutayb/gpt-utilities?color=brightgreen&amp;label=gpt-utilities" alt="Maven Central" /></a></p>
+      </li>
     </ul>
   </li>
-  <li><strong><em><a href="https://github.com/Umutayb/Java-Utilities" target="_blank" rel="noopener noreferrer">Java-Utilities</a></em></strong>
+  <li><strong><em><a href="https://github.com/egecansen/Java-Utilities" target="_blank" rel="noopener noreferrer">Java-Utilities</a></em></strong>
     <ul>
       <li>To clarify usage I create documentation, specify additional descriptions and ensure that it is comprehensive and effortless for users to understand.</li>
-      <li>Added new methods to the library. These enhancements aimed to extend the functionality and practicality of the Java Utilities library and to provide end users with more alternatives and efficiencies when working with Java applications.</li>
+      <li>
+        <p>Added new methods to the library. These enhancements aimed to extend the functionality and practicality of the Java Utilities library and to provide end users with more alternatives and efficiencies when working with Java applications.</p>
+
+        <p><a href="https://mvnrepository.com/artifact/io.github.umutayb/Utilities/latest"><img src="https://img.shields.io/maven-central/v/io.github.umutayb/Utilities?color=brightgreen&amp;label=Utilities" alt="Maven Central" /></a></p>
+      </li>
     </ul>
   </li>
-  <li><strong><em><a href="https://github.com/Umutayb/Web-Automation-Sample-Cucumber" target="_blank" rel="noopener noreferrer">Web-Automation-Sample-Cucumber</a></em></strong>
+  <li><strong><em><a href="https://github.com/egecansen/wasapi" target="_blank" rel="noopener noreferrer">Wasapi</a></em></strong>
     <ul>
-      <li>This project is a template demonstrating designed usage of Pickleib test automation library. The template can be used for quick initialisation of test automation projects.</li>
-      <li>I expanded the versatility of the project by adding new test scenarios that encompass both UI and API testing. These additional scenarios allowed for a more comprehensive and thorough testing approach, catering to different aspects of web application testing.
-<br /></li>
+      <li>Wasapi is a lightweight, Java-based API utility library that simplifies HTTP service generation and API calls using Retrofit. It abstracts the boilerplate needed to set up and use APIs, making it easier to integrate network calls in your Java applications.</li>
+      <li>
+        <p>Dockerized a MongoDB backend to support isolated unit testing, making it ideal for modern CI pipelines.</p>
+
+        <p><a href="https://mvnrepository.com/artifact/io.github.umutayb/wasapi/latest"><img src="https://img.shields.io/maven-central/v/io.github.umutayb/wasapi?color=brightgreen&amp;label=Wasapi" alt="Maven Central" /></a>
+<br /></p>
+      </li>
     </ul>
   </li>
 </ul>
