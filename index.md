@@ -53,17 +53,18 @@ Smart is a Portugal-based company that provides information technology and consu
 
 ## Skills                    
 
-- ***Selenium*** - UI Automation
+- ***Selenium*** - Web UI Automation
 - ***Appium*** - Mobile UI Automation
-- ***Cucumber*** - BDD
-- ***Postman*** - API Testing
+- ***Cucumber*** - BDD Framework
+- ***Postman*** - Manual API Testing
 - ***Retrofit & OkHttp*** - API Test Automation
+- ***Springboot*** - Dependency Injection
 - ***Git*** - Version control
-- Performance Testing with ***OctoPerf***
-- CI with ***Jenkins & Azure DevOps***
+- ***OctoPerf*** - Performance Testing
+- ***Jenkins & Azure DevOps*** - Continuous Integration
+- ***X-ray*** Test Management Tool
 - Intermediate level ***Java***
 - Intermediate level ***Maven***
-- ***X-ray*** Test Management Tool
 <br>
 
 ## Education 
