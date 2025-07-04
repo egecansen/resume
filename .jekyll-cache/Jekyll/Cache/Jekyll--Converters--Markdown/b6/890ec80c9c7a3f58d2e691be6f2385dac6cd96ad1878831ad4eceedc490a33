@@ -1,4 +1,4 @@
-I"15<h2 id="about">About</h2>
+I"?7<h2 id="about">About</h2>
 <p>Experienced in;</p>
 <ul>
   <li><strong><em>Test Automation Frameworks:</em></strong> Designing and implementing frameworks using Page Object Model and BDD.</li>
@@ -34,6 +34,7 @@ citizenM is a Netherlands-based, global hotel developer, investor, and hotel cha
   <li><strong><em>Headless Marketing Content Migration:</em></strong> Oversaw QA testing for migrating content to the new content management system.</li>
   <li><strong><em>Xray Test Management Tool Setup:</em></strong> Proposed for QA processes and configured for the website, enhancing test tracking, execution, and reporting processes.</li>
   <li><strong><em>Black Friday Campaign QA Coordination:</em></strong> Led QA efforts to ensure successful campaign implementation and flow tracking.</li>
+  <li><strong><em>Hotel Service Project:</em></strong> Managed the end-to-end QA processes for the Hotel Service website, a platform designed for downloading invoices, managing bookings, and completing payments.</li>
 </ul>
 
 <p><strong>Test Automation Engineer</strong> <strong><em><a href="https://www.smartconsulting.pt/en/services/nearshore" target="_blank" rel="noopener noreferrer">@Smart Nearshore</a></em></strong> <em>(19.06.2023 - Present)</em> <br />
@@ -59,17 +60,18 @@ Smart is a Portugal-based company that provides information technology and consu
 <h2 id="skills">Skills</h2>
 
 <ul>
-  <li><strong><em>Selenium</em></strong> - UI Automation</li>
+  <li><strong><em>Selenium</em></strong> - Web UI Automation</li>
   <li><strong><em>Appium</em></strong> - Mobile UI Automation</li>
-  <li><strong><em>Cucumber</em></strong> - BDD</li>
-  <li><strong><em>Postman</em></strong> - API Testing</li>
   <li><strong><em>Retrofit &amp; OkHttp</em></strong> - API Test Automation</li>
+  <li><strong><em>Springboot</em></strong> - Dependency Injection</li>
+  <li><strong><em>Cucumber</em></strong> - BDD Framework</li>
   <li><strong><em>Git</em></strong> - Version control</li>
-  <li>Performance Testing with <strong><em>OctoPerf</em></strong></li>
-  <li>CI with <strong><em>Jenkins &amp; Azure DevOps</em></strong></li>
+  <li><strong><em>OctoPerf</em></strong> - Performance Testing</li>
+  <li><strong><em>Jenkins &amp; Azure DevOps</em></strong> - Continuous Integration</li>
+  <li><strong><em>Postman</em></strong> - Manual API Testing</li>
+  <li><strong><em>X-ray</em></strong> Test Management Tool</li>
   <li>Intermediate level <strong><em>Java</em></strong></li>
-  <li>Intermediate level <strong><em>Maven</em></strong></li>
-  <li><strong><em>X-ray</em></strong> Test Management Tool
+  <li>Intermediate level <strong><em>Maven</em></strong>
 <br /></li>
 </ul>
 
@@ -100,7 +102,8 @@ Smart is a Portugal-based company that provides information technology and consu
 <h2 id="unified-automation-template">Unified-Automation-Template</h2>
 
 <ul>
-  <li>The Unified Automation Template is build upon Pickleib library using the ObjectRepository feature.</li>
+  <li>Unified Automation Template is a modular automation framework built on top of the <a href="https://github.com/egecansen/Pickleib" target="_blank" rel="noopener noreferrer">Pickleib</a> library.</li>
+  <li>This template is designed to provide a unified solution for Web UI, Mobile UI, and API automation, making it easy to start new automation projects with best practices already in place.</li>
   <li>Multi-Platform Testing: Supports Web UI, Mobile UI, and API automation.</li>
   <li>Scenario Tagging: Enables running specific test scenarios using tags.</li>
   <li>Customizable Driver Selection: Defaults to Chrome for Web UI, with the option to choose other drivers.</li>
@@ -114,7 +117,7 @@ Smart is a Portugal-based company that provides information technology and consu
 
 <ul>
   <li>This project is a template project that includes UI &amp; API interactions.</li>
-  <li>The Web-UI part of the project is based on Selenium &amp; Cucumber and the API part is based on Okhttp &amp; Retrofit. I used open-source libraries that I contribute to, such as Pickleib and Java-Utilities.</li>
+  <li>The Web-UI part of the project is based on Selenium &amp; Cucumber and the API part is based on Okhttp &amp; Retrofit.</li>
   <li>The CommonSteps class stores the generic UI steps and saves us from the repeated code.</li>
   <li>The ObjectRepository class is used for storing the page object instances; the page objects are automatically instantiated when the element of that page is interacted with.</li>
   <li>The PageObject class is for overwriting Selenium’s default field decorator to be able to use WebComponents.</li>
@@ -152,6 +155,16 @@ Smart is a Portugal-based company that provides information technology and consu
       </li>
     </ul>
   </li>
+  <li><strong><em><a href="https://github.com/egecansen/wasapi" target="_blank" rel="noopener noreferrer">Wasapi</a></em></strong>
+    <ul>
+      <li>Wasapi is a lightweight, Java-based API utility library that simplifies HTTP service generation and API calls using Retrofit. It abstracts the boilerplate needed to set up and use APIs, making it easier to integrate network calls in your Java applications.</li>
+      <li>
+        <p>Dockerized a MongoDB backend to support isolated unit testing, making it ideal for modern CI pipelines.</p>
+
+        <p><a href="https://mvnrepository.com/artifact/io.github.umutayb/wasapi/latest"><img src="https://img.shields.io/maven-central/v/io.github.umutayb/wasapi?color=brightgreen&amp;label=Wasapi" alt="Maven Central" /></a></p>
+      </li>
+    </ul>
+  </li>
   <li><strong><em><a href="https://github.com/egecansen/GPT-Utilities" target="_blank" rel="noopener noreferrer">GPT-Utilities</a></em></strong>
     <ul>
       <li>This library utilizes the OpenAI API service to provide inner GPT functionality for Java projects.</li>
@@ -169,17 +182,7 @@ Smart is a Portugal-based company that provides information technology and consu
       <li>
         <p>Added new methods to the library. These enhancements aimed to extend the functionality and practicality of the Java Utilities library and to provide end users with more alternatives and efficiencies when working with Java applications.</p>
 
-        <p><a href="https://mvnrepository.com/artifact/io.github.umutayb/Utilities/latest"><img src="https://img.shields.io/maven-central/v/io.github.umutayb/Utilities?color=brightgreen&amp;label=Utilities" alt="Maven Central" /></a></p>
-      </li>
-    </ul>
-  </li>
-  <li><strong><em><a href="https://github.com/egecansen/wasapi" target="_blank" rel="noopener noreferrer">Wasapi</a></em></strong>
-    <ul>
-      <li>Wasapi is a lightweight, Java-based API utility library that simplifies HTTP service generation and API calls using Retrofit. It abstracts the boilerplate needed to set up and use APIs, making it easier to integrate network calls in your Java applications.</li>
-      <li>
-        <p>Dockerized a MongoDB backend to support isolated unit testing, making it ideal for modern CI pipelines.</p>
-
-        <p><a href="https://mvnrepository.com/artifact/io.github.umutayb/wasapi/latest"><img src="https://img.shields.io/maven-central/v/io.github.umutayb/wasapi?color=brightgreen&amp;label=Wasapi" alt="Maven Central" /></a>
+        <p><a href="https://mvnrepository.com/artifact/io.github.umutayb/Utilities/latest"><img src="https://img.shields.io/maven-central/v/io.github.umutayb/Utilities?color=brightgreen&amp;label=Utilities" alt="Maven Central" /></a>
 <br /></p>
       </li>
     </ul>
