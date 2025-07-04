@@ -55,13 +55,13 @@ Smart is a Portugal-based company that provides information technology and consu
 
 - ***Selenium*** - Web UI Automation
 - ***Appium*** - Mobile UI Automation
-- ***Cucumber*** - BDD Framework
-- ***Postman*** - Manual API Testing
 - ***Retrofit & OkHttp*** - API Test Automation
 - ***Springboot*** - Dependency Injection
+- ***Cucumber*** - BDD Framework
 - ***Git*** - Version control
 - ***OctoPerf*** - Performance Testing
 - ***Jenkins & Azure DevOps*** - Continuous Integration
+- ***Postman*** - Manual API Testing
 - ***X-ray*** Test Management Tool
 - Intermediate level ***Java***
 - Intermediate level ***Maven***
@@ -127,6 +127,11 @@ Smart is a Portugal-based company that provides information technology and consu
 
     [![Maven Central](https://img.shields.io/maven-central/v/io.github.umutayb/pickleib?color=brightgreen&label=Pickleib)](https://mvnrepository.com/artifact/io.github.umutayb/pickleib/latest)
 
+- ***[Wasapi](https://github.com/egecansen/wasapi){:target="_blank" rel="noopener noreferrer"}***
+  - Wasapi is a lightweight, Java-based API utility library that simplifies HTTP service generation and API calls using Retrofit. It abstracts the boilerplate needed to set up and use APIs, making it easier to integrate network calls in your Java applications.
+  - Dockerized a MongoDB backend to support isolated unit testing, making it ideal for modern CI pipelines.
+
+    [![Maven Central](https://img.shields.io/maven-central/v/io.github.umutayb/wasapi?color=brightgreen&label=Wasapi)](https://mvnrepository.com/artifact/io.github.umutayb/wasapi/latest)
  
 - ***[GPT-Utilities](https://github.com/egecansen/GPT-Utilities){:target="_blank" rel="noopener noreferrer"}***
   - This library utilizes the OpenAI API service to provide inner GPT functionality for Java projects.
@@ -140,10 +145,4 @@ Smart is a Portugal-based company that provides information technology and consu
   - Added new methods to the library. These enhancements aimed to extend the functionality and practicality of the Java Utilities library and to provide end users with more alternatives and efficiencies when working with Java applications.
 
     [![Maven Central](https://img.shields.io/maven-central/v/io.github.umutayb/Utilities?color=brightgreen&label=Utilities)](https://mvnrepository.com/artifact/io.github.umutayb/Utilities/latest)
-
-- ***[Wasapi](https://github.com/egecansen/wasapi){:target="_blank" rel="noopener noreferrer"}***
-  - Wasapi is a lightweight, Java-based API utility library that simplifies HTTP service generation and API calls using Retrofit. It abstracts the boilerplate needed to set up and use APIs, making it easier to integrate network calls in your Java applications.
-  - Dockerized a MongoDB backend to support isolated unit testing, making it ideal for modern CI pipelines.
-
-    [![Maven Central](https://img.shields.io/maven-central/v/io.github.umutayb/wasapi?color=brightgreen&label=Wasapi)](https://mvnrepository.com/artifact/io.github.umutayb/wasapi/latest)
 <br>
