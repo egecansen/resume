@@ -90,7 +90,7 @@ Smart is a Portugal-based company that provides information technology and consu
 - Scenario Tagging: Enables running specific test scenarios using tags.
 - Customizable Driver Selection: Defaults to Chrome for Web UI, with the option to choose other drivers.
 - Headless Execution: Supports headless mode via configuration.
-- Project page **→** ***[Unified-Automation-Template](https://github.com/egecansen/Unified-Automation-Template/tree/main){:target="_blank" rel="noopener noreferrer"}***
+- Project page ➜ ***[Unified-Automation-Template](https://github.com/egecansen/Unified-Automation-Template/tree/main){:target="_blank" rel="noopener noreferrer"}***
 
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
   
