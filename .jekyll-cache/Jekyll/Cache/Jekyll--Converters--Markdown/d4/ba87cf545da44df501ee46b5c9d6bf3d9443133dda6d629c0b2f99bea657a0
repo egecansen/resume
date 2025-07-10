@@ -1,4 +1,4 @@
-I"?7<h2 id="about">About</h2>
+I"27<h2 id="about">About</h2>
 <p>Experienced in;</p>
 <ul>
   <li><strong><em>Test Automation Frameworks:</em></strong> Designing and implementing frameworks using Page Object Model and BDD.</li>
@@ -103,12 +103,12 @@ Smart is a Portugal-based company that provides information technology and consu
 
 <ul>
   <li>Unified Automation Template is a modular automation framework built on top of the <a href="https://github.com/egecansen/Pickleib" target="_blank" rel="noopener noreferrer">Pickleib</a> library.</li>
-  <li>This template is designed to provide a unified solution for Web UI, Mobile UI, and API automation, making it easy to start new automation projects with best practices already in place.</li>
+  <li>This template is designed to provide a unified solution for Web UI, Mobile UI, and API automation.</li>
   <li>Multi-Platform Testing: Supports Web UI, Mobile UI, and API automation.</li>
   <li>Scenario Tagging: Enables running specific test scenarios using tags.</li>
   <li>Customizable Driver Selection: Defaults to Chrome for Web UI, with the option to choose other drivers.</li>
   <li>Headless Execution: Supports headless mode via configuration.</li>
-  <li>Project page -&gt; <strong><em><a href="https://github.com/egecansen/Unified-Automation-Template/tree/main" target="_blank" rel="noopener noreferrer">Unified-Automation-Template</a></em></strong></li>
+  <li>Project page <strong>→</strong> <strong><em><a href="https://github.com/egecansen/Unified-Automation-Template/tree/main" target="_blank" rel="noopener noreferrer">Unified-Automation-Template</a></em></strong></li>
 </ul>
 
 <p>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</p>
@@ -122,7 +122,7 @@ Smart is a Portugal-based company that provides information technology and consu
   <li>The ObjectRepository class is used for storing the page object instances; the page objects are automatically instantiated when the element of that page is interacted with.</li>
   <li>The PageObject class is for overwriting Selenium’s default field decorator to be able to use WebComponents.</li>
   <li>You can find the cucumber test reports under the reports directory in resources folder. After the run is completed you can find the generated results in the target directory under the reports folder.</li>
-  <li>Project page -&gt;  <strong><em><a href="https://github.com/egecansen/Simplified-Automation-Template" target="_blank" rel="noopener noreferrer">Simplified-Automation-Template</a></em></strong></li>
+  <li>Project page <strong>→</strong>  <strong><em><a href="https://github.com/egecansen/Simplified-Automation-Template" target="_blank" rel="noopener noreferrer">Simplified-Automation-Template</a></em></strong></li>
 </ul>
 
 <p>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</p>
@@ -136,7 +136,7 @@ Smart is a Portugal-based company that provides information technology and consu
   <li>API tests use a custom library layered on Retrofit &amp; OkHttp for seamless integration and request handling.</li>
   <li>The project uses a Maven multi-module layout, where tests and post-report are sibling modules under a common parent.</li>
   <li>Reports are generated via Maven Surefire. The HTML report can be emailed by providing credentials and setting the send-report-email property to true.</li>
-  <li>Project page -&gt;  <strong><em><a href="https://github.com/egecansen/Appium-Springboot-Template" target="_blank" rel="noopener noreferrer">Appium-Springboot-Template</a></em></strong></li>
+  <li>Project page <strong>→</strong>  <strong><em><a href="https://github.com/egecansen/Appium-Springboot-Template" target="_blank" rel="noopener noreferrer">Appium-Springboot-Template</a></em></strong></li>
 </ul>
 
 <p>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</p>
@@ -146,10 +146,12 @@ Smart is a Portugal-based company that provides information technology and consu
 <ul>
   <li><strong><em><a href="https://github.com/egecansen/Pickleib" target="_blank" rel="noopener noreferrer">Pickleib</a></em></strong>
     <ul>
+      <li>Pickelib is a quickstart library for test automation projects capable of webUI, mobileUI, API, database, data layer &amp; email tests.</li>
       <li>Improved documentation, added new methods, property configurations and scalability for future upgrades.</li>
-      <li>A MongoDB database was created containing methods and documentation of the Pickleib library.</li>
+      <li>Created unit tests and StatusWatcher feature for monitoring the test statuses.</li>
+      <li>A MongoDB database was created containing methods and documentation of the library.</li>
       <li>
-        <p>Added chat support functionality. This feature leverages the OpenAI API and MongoDB Atlas API services along with the GPT utilities library. By seamlessly integrating chatGPT with the MongoDB database, the chat support feature provides a dynamic and engaging environment for users. This allows them to get support and retrieve method information and application examples from the Pickleib library.</p>
+        <p>Added chat support functionality. This feature leverages the OpenAI API and MongoDB Atlas API services along with the GPT-Utilities library.</p>
 
         <p><a href="https://mvnrepository.com/artifact/io.github.umutayb/pickleib/latest"><img src="https://img.shields.io/maven-central/v/io.github.umutayb/pickleib?color=brightgreen&amp;label=Pickleib" alt="Maven Central" /></a></p>
       </li>
@@ -157,9 +159,10 @@ Smart is a Portugal-based company that provides information technology and consu
   </li>
   <li><strong><em><a href="https://github.com/egecansen/wasapi" target="_blank" rel="noopener noreferrer">Wasapi</a></em></strong>
     <ul>
-      <li>Wasapi is a lightweight, Java-based API utility library that simplifies HTTP service generation and API calls using Retrofit. It abstracts the boilerplate needed to set up and use APIs, making it easier to integrate network calls in your Java applications.</li>
+      <li>Wasapi is a lightweight, Java-based API utility library that simplifies API calls using Retrofit &amp; OkHttp. It abstracts the boilerplate needed to set up and use APIs, making it easier to automate API calls in Java projects.</li>
+      <li>Dockerized a MongoDB backend to support isolated unit testing, making it ideal for modern CI pipelines.</li>
       <li>
-        <p>Dockerized a MongoDB backend to support isolated unit testing, making it ideal for modern CI pipelines.</p>
+        <p>Created unit test based on the Food Planner application and a local MongoDB database.</p>
 
         <p><a href="https://mvnrepository.com/artifact/io.github.umutayb/wasapi/latest"><img src="https://img.shields.io/maven-central/v/io.github.umutayb/wasapi?color=brightgreen&amp;label=Wasapi" alt="Maven Central" /></a></p>
       </li>
@@ -170,7 +173,7 @@ Smart is a Portugal-based company that provides information technology and consu
       <li>This library utilizes the OpenAI API service to provide inner GPT functionality for Java projects.</li>
       <li>It offers various features such as chat support, data generation, and more, which can be seamlessly integrated into any Java project.</li>
       <li>
-        <p>I established the initial framework and set up the foundation for API usage. Additionally, I provided support throughout the development process.</p>
+        <p>Established the initial framework and set up the foundation for API usage. Additionally, provided support throughout the development process.</p>
 
         <p><a href="https://mvnrepository.com/artifact/io.github.umutayb/gpt-utilities/latest"><img src="https://img.shields.io/maven-central/v/io.github.umutayb/gpt-utilities?color=brightgreen&amp;label=gpt-utilities" alt="Maven Central" /></a></p>
       </li>
@@ -178,7 +181,7 @@ Smart is a Portugal-based company that provides information technology and consu
   </li>
   <li><strong><em><a href="https://github.com/egecansen/Java-Utilities" target="_blank" rel="noopener noreferrer">Java-Utilities</a></em></strong>
     <ul>
-      <li>To clarify usage I create documentation, specify additional descriptions and ensure that it is comprehensive and effortless for users to understand.</li>
+      <li>Created documentation, specify additional descriptions and ensure that it is comprehensive and effortless for users to understand.</li>
       <li>
         <p>Added new methods to the library. These enhancements aimed to extend the functionality and practicality of the Java Utilities library and to provide end users with more alternatives and efficiencies when working with Java applications.</p>
 
