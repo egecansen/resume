@@ -90,7 +90,7 @@ Smart is a Portugal-based company that provides information technology and consu
 - Scenario Tagging: Enables running specific test scenarios using tags.
 - Customizable Driver Selection: Defaults to Chrome for Web UI, with the option to choose other drivers.
 - Headless Execution: Supports headless mode via configuration.
-- Project page -> ***[Unified-Automation-Template](https://github.com/egecansen/Unified-Automation-Template/tree/main){:target="_blank" rel="noopener noreferrer"}***
+- Project page **→** ***[Unified-Automation-Template](https://github.com/egecansen/Unified-Automation-Template/tree/main){:target="_blank" rel="noopener noreferrer"}***
 
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
   
@@ -102,7 +102,7 @@ Smart is a Portugal-based company that provides information technology and consu
 - The ObjectRepository class is used for storing the page object instances; the page objects are automatically instantiated when the element of that page is interacted with. 
 - The PageObject class is for overwriting Selenium's default field decorator to be able to use WebComponents.
 - You can find the cucumber test reports under the reports directory in resources folder. After the run is completed you can find the generated results in the target directory under the reports folder.
-- Project page ->  ***[Simplified-Automation-Template](https://github.com/egecansen/Simplified-Automation-Template){:target="_blank" rel="noopener noreferrer"}***
+- Project page →  ***[Simplified-Automation-Template](https://github.com/egecansen/Simplified-Automation-Template){:target="_blank" rel="noopener noreferrer"}***
 
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
   
@@ -114,7 +114,7 @@ Smart is a Portugal-based company that provides information technology and consu
 - API tests use a custom library layered on Retrofit & OkHttp for seamless integration and request handling.
 - The project uses a Maven multi-module layout, where tests and post-report are sibling modules under a common parent.
 - Reports are generated via Maven Surefire. The HTML report can be emailed by providing credentials and setting the send-report-email property to true.
-- Project page ->  ***[Appium-Springboot-Template](https://github.com/egecansen/Appium-Springboot-Template){:target="_blank" rel="noopener noreferrer"}***
+- Project page →  ***[Appium-Springboot-Template](https://github.com/egecansen/Appium-Springboot-Template){:target="_blank" rel="noopener noreferrer"}***
 
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 
