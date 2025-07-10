@@ -85,7 +85,7 @@ Smart is a Portugal-based company that provides information technology and consu
 ## Unified-Automation-Template
 
 - Unified Automation Template is a modular automation framework built on top of the [Pickleib](https://github.com/egecansen/Pickleib){:target="_blank" rel="noopener noreferrer"} library.
-- This template is designed to provide a unified solution for Web UI, Mobile UI, and API automation, making it easy to start new automation projects with best practices already in place.
+- This template is designed to provide a unified solution for Web UI, Mobile UI, and API automation.
 - Multi-Platform Testing: Supports Web UI, Mobile UI, and API automation.
 - Scenario Tagging: Enables running specific test scenarios using tags.
 - Customizable Driver Selection: Defaults to Chrome for Web UI, with the option to choose other drivers.
