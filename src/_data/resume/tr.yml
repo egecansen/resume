@@ -15,8 +15,8 @@ about:
   highlights:
     - label: Multi-Platform Testi
       text: >-
-        Java ile web, iOS ve Android test otomasyonu (Selenium, Appium, JUnit);
-        Retrofit ve OkHttp ile API testleri.
+        Web, iOS ve Android'de arayüz ve API seviyesinde test otomasyonu;
+        sahibinden.com'da üç platformun otomasyon ekibinde görev.
     - label: Framework ve Kütüphaneler
       text: >-
         Maven Central'da yayımlanan Pickleib test otomasyon kütüphanelerine
@@ -159,7 +159,7 @@ projects:
 
 skills:
   - group: Test otomasyonu
-    items: Selenium, Appium, JUnit 5, Cucumber (BDD), Page Object Model
+    items: Selenium, Cypress, Appium, JUnit 5, Cucumber (BDD), Page Object Model
   - group: API testi
     items: Retrofit, OkHttp, Postman
   - group: Dil ve derleme
