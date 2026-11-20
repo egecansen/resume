@@ -43,8 +43,9 @@ prefix the build and test commands with `PW_CHANNEL=chrome`.
 - Each page renders, in the right language, with nothing failing to load
 - No sideways scrolling on a phone-sized screen
 - Each language has a PDF, and it is at most two pages
-- The language switch and the theme toggle work
-- The print layout hides the on-screen controls
+- The language switch works
+- The sidebar stays in view on wide screens
+- The print layout is light and writes the contact details out
 
 ## How it is put together
 
@@ -54,5 +55,5 @@ prefix the build and test commands with `PW_CHANNEL=chrome`.
 - `tests/site.spec.js` holds the [Playwright](https://playwright.dev/) checks
 - `.github/workflows/deploy.yml` builds, tests and deploys
 
-The typeface is [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont/),
-used under the SIL Open Font License (`src/assets/fonts/OFL.txt`).
+The typeface is Noto Sans, used under the SIL Open Font License
+(`src/assets/fonts/OFL.txt`). The sidebar icons are from Bootstrap Icons (MIT).

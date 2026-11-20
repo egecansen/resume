@@ -15,10 +15,6 @@ summary: >-
   agents write, diagnose and repair tests under the same rules a human reviewer
   would enforce.
 
-suite_caption: >-
-  I am responsible for close to 1,000 of the 7,000+ automated tests in
-  sahibinden.com's suite. Each bar is 100 tests.
-
 experience:
   - role: Test Automation Engineer
     company: sahibinden.com
@@ -166,17 +162,16 @@ certification:
     url: https://app.diplomasafe.com/en-US/diploma/d6986af934382732dc7c4c93486d8072d37f79e92
 
 ui:
+  about: About
   experience: Experience
   projects: Projects
   skills: Skills
   education: Education
   certification: Certification
   present: Present
+  email: Email
   download: Download PDF
-  language: Language
-  theme: Switch between light and dark theme
   photo_alt: Portrait of Egecan Şen
-  suite_alt: "A row of 70 bars, 10 of them filled."
   updated: Updated
   footer: Built with Eleventy and checked with Playwright on every deploy.
   source: Source on GitHub

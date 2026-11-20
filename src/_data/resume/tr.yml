@@ -17,10 +17,6 @@ summary: >-
   uygulayacağı kurallar içinde test yazmasını, hataları teşhis etmesini ve
   testleri onarmasını sağlayan araçlar geliştiriyorum.
 
-suite_caption: >-
-  sahibinden.com'un 7.000'den fazla otomasyon testinin yaklaşık 1.000'i benim
-  sorumluluğumda. Her çubuk 100 testi gösterir.
-
 experience:
   - role: Test Otomasyon Mühendisi
     company: sahibinden.com
@@ -173,17 +169,16 @@ certification:
     url: https://app.diplomasafe.com/en-US/diploma/d6986af934382732dc7c4c93486d8072d37f79e92
 
 ui:
+  about: Hakkımda
   experience: Deneyim
   projects: Projeler
   skills: Yetkinlikler
   education: Eğitim
   certification: Sertifika
   present: Halen
+  email: E-posta
   download: PDF indir
-  language: Dil
-  theme: Açık ve koyu tema arasında geçiş yap
   photo_alt: Egecan Şen'in portresi
-  suite_alt: "70 çubuktan oluşan bir sıra; 10 tanesi dolu."
   updated: Güncelleme
   footer: Eleventy ile üretildi; her yayında Playwright ile kontrol ediliyor.
   source: Kaynak kodu GitHub'da

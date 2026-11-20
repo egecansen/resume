@@ -8,17 +8,13 @@ repo: https://github.com/egecansen/resume
 
 links:
   - label: LinkedIn
+    icon: linkedin
     display: linkedin.com/in/egecan-şen-887482202
     url: https://www.linkedin.com/in/egecan-%C5%9Fen-887482202/
   - label: GitHub
+    icon: github
     display: github.com/egecansen
     url: https://github.com/egecansen
-
-# The row of bars under the summary: one bar per 100 automated tests, with the
-# ones I am responsible for filled in. Delete this block to hide it.
-suite:
-  cells: 70
-  owned: 10
 
 languages:
   - code: en

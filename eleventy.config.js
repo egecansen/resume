@@ -26,6 +26,9 @@ export default function (eleventyConfig) {
     new Intl.DateTimeFormat(locale, { month: "long", year: "numeric" }).format(date),
   );
 
+  // "contracted through X" -> "Contracted through X"
+  eleventyConfig.addFilter("upperFirst", (text) => text.charAt(0).toLocaleUpperCase() + text.slice(1));
+
   // Safe to drop inside a <script type="application/ld+json"> block.
   eleventyConfig.addFilter("jsonld", (value) => JSON.stringify(value).replace(/</g, "\\u003c"));
 

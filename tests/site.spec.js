@@ -45,14 +45,14 @@ for (const lang of site.languages) {
       await expect(page).toHaveTitle(`${site.name} | ${text.title}`);
       await expect(page.locator("html")).toHaveAttribute("lang", lang.code);
       await expect(page.getByRole("heading", { level: 1 })).toHaveText(site.name);
-      for (const section of ["experience", "projects", "skills", "education", "certification"]) {
+      for (const section of ["about", "experience", "projects", "skills", "education", "certification"]) {
         await expect(page.getByRole("heading", { level: 2, name: text.ui[section] })).toBeVisible();
       }
-      await expect(page.locator("main article h3").first()).toHaveText(text.experience[0].role);
+      await expect(page.locator(".job .role").first()).toHaveText(text.experience[0].role);
       await expect(page.locator(".bullets li")).toHaveCount(
         text.experience.reduce((total, job) => total + job.bullets.length, 0),
       );
-      await expect(page.getByRole("link", { name: site.email })).toHaveAttribute(
+      await expect(page.getByRole("link", { name: text.ui.email, exact: true })).toHaveAttribute(
         "href",
         `mailto:${site.email}`,
       );
@@ -96,34 +96,27 @@ test("the language switch goes to the other language and back", async ({ page })
   await page.getByRole("link", { name: tr.label, exact: true }).click();
   await expect(page).toHaveURL(/\/resume\/tr\/$/);
   await expect(page.locator("html")).toHaveAttribute("lang", tr.code);
-  await expect(page.getByRole("link", { name: tr.label, exact: true })).toHaveAttribute(
-    "aria-current",
-    "page",
-  );
+  await expect(page.getByRole("link", { name: tr.label, exact: true })).toHaveCount(0);
 
   await page.getByRole("link", { name: en.label, exact: true }).click();
   await expect(page).toHaveURL(/\/resume\/$/);
   await expect(page.locator("html")).toHaveAttribute("lang", en.code);
 });
 
-test("the theme toggle switches theme and remembers the choice", async ({ page }) => {
-  await page.emulateMedia({ colorScheme: "light" });
+test("on a wide screen the sidebar stays in view while the resume scrolls", async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 800 });
   await page.goto("");
-  const background = () => page.evaluate(() => getComputedStyle(document.body).backgroundColor);
-  const light = await background();
-
-  await page.getByRole("button", { name: content.en.ui.theme }).click();
-  await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
-  expect(await background()).not.toBe(light);
-
-  await page.reload();
-  await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
+  await page.mouse.wheel(0, 1500);
+  await expect(page.locator(".sidebar .photo")).toBeInViewport();
 });
 
-test("print layout hides the on-screen controls", async ({ page }) => {
+test("print layout is light, with contact details written out", async ({ page }) => {
   await page.goto("");
   await page.emulateMedia({ media: "print" });
-  await expect(page.locator(".controls")).toBeHidden();
+  await expect(page.locator(".links")).toBeHidden();
   await expect(page.locator(".photo")).toBeHidden();
   await expect(page.getByText(site.links[1].display)).toBeVisible();
+  expect(await page.evaluate(() => getComputedStyle(document.body).backgroundColor)).toBe(
+    "rgb(255, 255, 255)",
+  );
 });
