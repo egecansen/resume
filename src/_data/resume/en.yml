@@ -9,7 +9,7 @@ description: >-
   Resume of Egecan Şen, a Test Automation Engineer working on web, iOS and
   Android test automation in Java, and on QA tooling for AI coding agents.
 
-# The About section: a lead-in line and a list of highlights.
+# The About section: a list of highlights. `lead` is an optional line above the list; leave it "" to hide it.
 about:
   lead: "Experienced in:"
   highlights:

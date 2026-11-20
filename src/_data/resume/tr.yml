@@ -10,9 +10,9 @@ description: >-
   yapay zekâ kodlama ajanları için QA araçları alanlarında çalışan Otomasyon
   Mühendisi.
 
-# Hakkımda bölümü: bir giriş satırı ve öne çıkanlar listesi.
+# Hakkımda bölümü: öne çıkanlar listesi. `lead` doluysa listenin üstünde bir giriş satırı olarak görünür.
 about:
-  lead: "Deneyim alanları:"
+  lead: ""
   highlights:
     - label: Multi-Platform Testi
       text: >-

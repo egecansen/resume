@@ -78,7 +78,9 @@ permalink: "{{ lang.path }}index.html"
     <main class="content">
       <section aria-labelledby="about">
         <h2 id="about">{{ t.about }}</h2>
+        {%- if r.about.lead %}
         <p class="about-lead">{{ r.about.lead }}</p>
+        {%- endif %}
         <ul class="highlights">
           {%- for item in r.about.highlights %}
           <li><strong><em>{{ item.label }}:</em></strong> {{ item.text | inline | safe }}</li>
