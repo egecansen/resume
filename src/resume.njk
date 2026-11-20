@@ -1,0 +1,166 @@
+---
+pagination:
+  data: site.languages
+  size: 1
+  alias: lang
+permalink: "{{ lang.path }}index.html"
+---
+{%- set r = resume[lang.code] -%}
+{%- set t = r.ui -%}
+{%- set root = lang.root -%}
+{%- set pageUrl = build.siteUrl + "/" + lang.path -%}
+<!doctype html>
+<html lang="{{ lang.code }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.name }} | {{ r.title }}</title>
+  <meta name="description" content="{{ r.description }}">
+  <meta name="author" content="{{ site.name }}">
+  <meta name="color-scheme" content="dark">
+  <link rel="canonical" href="{{ pageUrl }}">
+  {%- for l in site.languages %}
+  <link rel="alternate" hreflang="{{ l.code }}" href="{{ build.siteUrl }}/{{ l.path }}">
+  {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ build.siteUrl }}/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="{{ site.name }} | {{ r.title }}">
+  <meta property="og:description" content="{{ r.description }}">
+  <meta property="og:url" content="{{ pageUrl }}">
+  <meta property="og:image" content="{{ build.siteUrl }}/{{ site.photo }}">
+  <meta property="og:locale" content="{{ 'tr_TR' if lang.code == 'tr' else 'en_US' }}">
+  <link rel="icon" href="{{ root }}assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="{{ root }}assets/fonts/noto-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ root }}assets/css/style.css">
+  <script type="application/ld+json">
+    {{ {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": site.name,
+      "jobTitle": r.title,
+      "url": pageUrl,
+      "email": "mailto:" + site.email,
+      "worksFor": { "@type": "Organization", "name": r.experience[0].company },
+      "sameAs": [site.links[0].url, site.links[1].url]
+    } | jsonld | safe }}
+  </script>
+</head>
+<body>
+  <div class="wrapper">
+
+    <header class="sidebar">
+      <img class="photo" src="{{ root }}{{ site.photo }}" alt="{{ t.photo_alt }}" width="480" height="476">
+      <h1><a href="{{ (root + lang.path) or './' }}">{{ site.name }}</a></h1>
+      <p class="title">{{ r.title }}</p>
+      <p class="meta">{{ r.location }}<br><span class="on-screen">{{ site.email }}</span></p>
+
+      <ul class="links on-screen">
+        {%- for link in site.links %}
+        <li><a href="{{ link.url }}" rel="me noopener" target="_blank">{% include "icons/" + link.icon + ".svg" %}{{ link.label }}</a></li>
+        {%- endfor %}
+        <li><a href="mailto:{{ site.email }}">{% include "icons/envelope.svg" %}{{ t.email }}</a></li>
+        <li><a href="{{ root }}{{ lang.pdf }}" download>{% include "icons/file-earmark-pdf.svg" %}{{ t.download }}</a></li>
+        {%- for l in site.languages %}
+        {%- if l.code != lang.code %}
+        <li><a href="{{ (root + l.path) or './' }}" lang="{{ l.code }}" hreflang="{{ l.code }}">{% include "icons/translate.svg" %}{{ l.label }}</a></li>
+        {%- endif %}
+        {%- endfor %}
+      </ul>
+
+      <ul class="contact on-paper">
+        <li>{{ site.email }}</li>
+        {%- for link in site.links %}
+        <li><a href="{{ link.url }}">{{ link.display }}</a></li>
+        {%- endfor %}
+      </ul>
+    </header>
+
+    <main class="content">
+      <section aria-labelledby="about">
+        <h2 id="about">{{ t.about }}</h2>
+        {%- if r.about.lead %}
+        <p class="about-lead">{{ r.about.lead }}</p>
+        {%- endif %}
+        <ul class="highlights">
+          {%- for item in r.about.highlights %}
+          <li><strong><em>{{ item.label }}:</em></strong> {{ item.text | inline | safe }}</li>
+          {%- endfor %}
+        </ul>
+      </section>
+
+      <section aria-labelledby="experience">
+        <h2 id="experience">{{ t.experience }}</h2>
+        {%- for job in r.experience %}
+        <article class="job">
+          <h3 class="job-head">
+            <strong class="role">{{ job.role }}</strong>
+            <strong><em>{% if job.url %}<a href="{{ job.url }}" target="_blank" rel="noopener">@{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}</em></strong>
+            <em class="dates">({{ job.start | monthYear(lang.code) }} – {% if job.end %}{{ job.end | monthYear(lang.code) }}{% else %}{{ t.present }}{% endif %})</em>
+          </h3>
+          <p class="job-about">{{ job.about }}{% if job.via %} {{ job.via | upperFirst }}.{% endif %}</p>
+          <ul class="bullets">
+            {%- for bullet in job.bullets %}
+            <li>{{ bullet | inline | safe }}</li>
+            {%- endfor %}
+          </ul>
+          {%- if job.links %}
+          <p class="inline-links">
+            {%- for link in job.links %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+            {%- endfor %}
+          </p>
+          {%- endif %}
+        </article>
+        {%- endfor %}
+      </section>
+
+      <section aria-labelledby="projects">
+        <h2 id="projects">{{ t.projects }}</h2>
+        {%- for project in r.projects %}
+        <article class="project">
+          <h3 class="job-head">
+            <strong>{% if project.url %}<a href="{{ project.url }}" target="_blank" rel="noopener">{{ project.name }}</a>{% else %}{{ project.name }}{% endif %}</strong>
+            {%- if project.note %} <em>({{ project.note }})</em>{% endif %}
+          </h3>
+          <p>{{ project.text | inline | safe }}</p>
+        </article>
+        {%- endfor %}
+      </section>
+
+      <section aria-labelledby="skills">
+        <h2 id="skills">{{ t.skills }}</h2>
+        <ul class="skills">
+          {%- for skill in r.skills %}
+          <li><strong><em>{{ skill.group }}:</em></strong> {{ skill.items }}</li>
+          {%- endfor %}
+        </ul>
+      </section>
+
+      <section aria-labelledby="education">
+        <h2 id="education">{{ t.education }}</h2>
+        <ul>
+          {%- for item in r.education %}
+          <li><strong>{{ item.degree }}</strong><br>{{ item.school }}</li>
+          {%- endfor %}
+        </ul>
+      </section>
+
+      <section aria-labelledby="certification">
+        <h2 id="certification">{{ t.certification }}</h2>
+        <ul>
+          {%- for item in r.certification %}
+          <li>{% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</li>
+          {%- endfor %}
+        </ul>
+      </section>
+
+      <footer class="site-footer">
+        {{ t.updated }}: {{ build.date | longMonthYear(lang.code) }}.
+        {{ t.footer }}
+        <a href="{{ site.repo }}">{{ t.source }}</a>.
+      </footer>
+    </main>
+
+  </div>
+</body>
+</html>

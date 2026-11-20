@@ -1,0 +1,19 @@
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Locally installed gems
+vendor/
+.bundle/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Node
+node_modules/
+test-results/
+playwright-report/

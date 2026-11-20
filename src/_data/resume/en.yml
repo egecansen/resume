@@ -1,0 +1,194 @@
+# English content. To link a word inside any sentence, write [word](https://address).
+# Keep the structure identical to tr.yml:
+# same entries in the same order, same number of bullets, same dates and links.
+# `npm test` fails if the two files drift apart.
+
+title: Test Automation Engineer
+location: Istanbul, Turkey
+description: >-
+  Resume of Egecan Şen, a Test Automation Engineer working on web, iOS and
+  Android test automation in Java, and on QA tooling for AI coding agents.
+
+# The About section: a list of highlights. `lead` is an optional line above the list; leave it "" to hide it.
+about:
+  lead: "Experienced in:"
+  highlights:
+    - label: Cross-Platform Testing
+      text: >-
+        Web, iOS and Android test automation in Java with Selenium, Appium and
+        JUnit, plus API testing with Retrofit and OkHttp.
+    - label: Frameworks and Libraries
+      text: >-
+        Contributor to the Pickleib test automation libraries on Maven Central;
+        built starter frameworks on Page Object Model and BDD with Cucumber.
+    - label: Release and QA Process
+      text: >-
+        Release approver at citizenM, where I set up a test stage in the
+        deployment pipelines and rolled out Xray; proposed and planned the
+        Preprod and Hotfix dashboard process at sahibinden.com.
+    - label: AI-Assisted QA
+      text: >-
+        Built Hektor, a skills pack that lets AI coding agents write, diagnose
+        and repair tests within a team's review rules.
+
+experience:
+  - role: Test Automation Engineer
+    company: sahibinden.com
+    url: https://www.sahibinden.com
+    about: Turkey's largest online classifieds platform.
+    start: "2025-09"
+    end: null
+    bullets:
+      - >-
+        Responsible for close to 1,000 of the suite's 7,000+ automated tests,
+        covering search results and paid listing promotions ("doping").
+      - >-
+        Started on the iOS test automation team, moved to Android, and now work
+        on the web team with Java, Selenium, JUnit, Jenkins and OpenShift.
+      - >-
+        Came up with Watcher, an internal console that tracks each
+        pre-production release across Jenkins jobs and Jira tickets. Built the
+        proof of concept, then proposed and planned the Preprod and Hotfix
+        dashboard process and documented it with flow diagrams in Confluence.
+      - >-
+        Built and proposed Hektor, a skills pack that lets AI coding agents
+        write and repair tests for the suite within the team's review rules,
+        with a separate kit for triaging flaky runs.
+      - >-
+        Proposed piloting [Achilles](https://www.npmjs.com/package/@civitas-cerebrum/achilles),
+        an open-source agentic QA methodology, on the existing Java and
+        Selenium stack.
+      - >-
+        Worked with DevOps to bring an internal test service onto ArgoCD and
+        Backstage.
+
+  - role: QA Automation Engineer
+    company: citizenM
+    url: https://www.citizenm.com/company/overview
+    via: contracted through Smart Nearshore
+    about: Netherlands-based global hotel chain.
+    start: "2023-06"
+    end: "2025-08"
+    bullets:
+      - >-
+        Ran website QA through three migrations: the Sunrise database
+        migration, including the UI side of its performance tests, the move to
+        Nuxt, and the Headless Marketing content migration.
+      - >-
+        Proposed and set up an automated test stage in the website's deployment
+        pipelines, with results posted to a dedicated Slack channel.
+      - >-
+        Proposed Xray for test management and handled its rollout for the
+        website team.
+      - >-
+        Became one of the website's release approvers and led QA coordination
+        for the Black Friday campaign.
+      - >-
+        Adapted the company's SDLC model for the website and the Contentful
+        CMS: defined the test stages and workflows and wrote the documentation
+        for both teams.
+      - >-
+        Co-led the QA team's scrum process, covered mobile app QA during
+        staffing gaps, and ran end-to-end QA for the Hotel Service site
+        (invoices, bookings, payments).
+
+  - role: Open-Source Contributor
+    company: Pickleib and related Java libraries
+    about: Java test automation libraries published on Maven Central.
+    start: "2022-08"
+    end: "2025-04"
+    bullets:
+      - >-
+        Pickleib, a library for web, mobile and API test automation: added
+        methods and configuration properties, wrote unit tests and
+        documentation, and built the StatusWatcher feature for monitoring test
+        status.
+      - >-
+        Co-developed GPT-Utilities, a Java library for the OpenAI API: set up
+        the initial framework and API layer, then used it to add a chat-support
+        feature to Pickleib, backed by MongoDB Atlas.
+      - >-
+        Wasapi, API client utilities built on Retrofit and OkHttp: wrote the
+        unit tests against a Dockerized MongoDB backend so they run in CI.
+      - >-
+        Java-Utilities: wrote the documentation and added new methods.
+    links:
+      - label: Pickleib
+        url: https://github.com/Umutayb/Pickleib
+      - label: GPT-Utilities
+        url: https://github.com/Umutayb/GPT-Utilities
+      - label: Wasapi
+        url: https://github.com/egecansen/wasapi
+      - label: Java-Utilities
+        url: https://github.com/egecansen/Java-Utilities
+
+projects:
+  - name: Hektor
+    note: 2026, private repository
+    text: >-
+      Agent skills for a large Selenium and JUnit suite. More than 20 skills,
+      six subagent roles and a set of enforcement gates let AI coding agents
+      (Cursor) write, diagnose and repair tests without breaking the team's
+      review rules. Includes a flaky-triage kit that re-runs failures, groups
+      them by root cause and proves each fix green.
+  - name: Unified-Automation-Template
+    url: https://github.com/egecansen/Unified-Automation-Template
+    text: >-
+      Starter framework that keeps web, mobile and API test automation in one
+      project, built on Pickleib and Cucumber. Supports tag-based runs,
+      configurable drivers and headless mode.
+  - name: Appium-Springboot-Template
+    url: https://github.com/egecansen/Appium-Springboot-Template
+    text: >-
+      Mobile automation starter with JUnit 5, Appium and Spring Boot. Maven
+      multi-module layout and Page Object Model; runs in Jenkins with Docker
+      and can email the HTML report.
+  - name: Simplified-Automation-Template
+    url: https://github.com/egecansen/Simplified-Automation-Template
+    text: >-
+      Selenium and Cucumber UI tests alongside Retrofit and OkHttp API tests,
+      with shared step definitions and page objects that instantiate
+      themselves.
+
+skills:
+  - group: Test automation
+    items: Selenium, Appium, JUnit 5, Cucumber (BDD), Page Object Model
+  - group: API testing
+    items: Retrofit, OkHttp, Postman
+  - group: Language and build
+    items: Java, Maven, Spring Boot, Git
+  - group: CI/CD
+    items: Jenkins, Azure DevOps, ArgoCD
+  - group: Infrastructure
+    items: Docker, OpenShift
+  - group: Process
+    items: Jira, Xray, Confluence, release approval, SDLC design
+  - group: Performance
+    items: OctoPerf
+  - group: AI-assisted QA
+    items: Agent skills and hooks for Cursor, OpenAI API integration
+
+education:
+  - degree: BA, Music Technology
+    school: Dokuz Eylül University, Department of Music Sciences
+  - degree: BA, Protohistory and Near Eastern Archaeology
+    school: Ege University, Faculty of Letters
+
+certification:
+  - name: ISTQB Certified Tester, Foundation Level (CTFL)
+    url: https://app.diplomasafe.com/en-US/diploma/d6986af934382732dc7c4c93486d8072d37f79e92
+
+ui:
+  about: About
+  experience: Experience
+  projects: Projects
+  skills: Skills
+  education: Education
+  certification: Certification
+  present: Present
+  email: Email
+  download: Download PDF
+  photo_alt: Portrait of Egecan Şen
+  updated: Updated
+  footer: Built with Eleventy and checked with Playwright on every deploy.
+  source: Source on GitHub

@@ -1,0 +1,29 @@
+# Facts that are the same in every language.
+# The translated text lives in resume/en.yml and resume/tr.yml.
+
+name: Egecan Şen
+email: canegecansen@gmail.com
+photo: assets/img/pp.jpg
+repo: https://github.com/egecansen/resume
+
+links:
+  - label: LinkedIn
+    icon: linkedin
+    display: linkedin.com/in/egecan-şen-887482202
+    url: https://www.linkedin.com/in/egecan-%C5%9Fen-887482202/
+  - label: GitHub
+    icon: github
+    display: github.com/egecansen
+    url: https://github.com/egecansen
+
+languages:
+  - code: en
+    label: English
+    path: ""
+    root: ""
+    pdf: Egecan-Sen-Resume-EN.pdf
+  - code: tr
+    label: Türkçe
+    path: tr/
+    root: ../
+    pdf: Egecan-Sen-CV-TR.pdf

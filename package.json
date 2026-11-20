@@ -1,0 +1,24 @@
+{
+  "name": "egecansen-resume",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Egecan Şen's resume: one template, two languages, PDFs generated at build time.",
+  "type": "module",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build:html": "eleventy",
+    "build:pdf": "node scripts/make-pdf.mjs",
+    "build": "npm run build:html && npm run build:pdf",
+    "preview": "node scripts/serve.mjs",
+    "test": "playwright test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.8",
+    "@playwright/test": "^1.65.1",
+    "js-yaml": "^4.3.2",
+    "markdown-it": "^14.3.3"
+  }
+}

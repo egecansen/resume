@@ -1,0 +1,202 @@
+# Türkçe içerik. Cümle içinde bir kelimeye bağlantı vermek için [kelime](https://adres) yazın.
+# Yapıyı en.yml ile aynı tutun:
+# aynı sırada aynı kayıtlar, aynı sayıda madde, aynı tarihler ve bağlantılar.
+# İki dosya birbirinden saparsa `npm test` hata verir.
+
+title: Otomasyon Mühendisi
+location: İstanbul, Türkiye
+description: >-
+  Egecan Şen'in özgeçmişi: Java ile web, iOS ve Android test otomasyonu ve
+  yapay zekâ kodlama ajanları için QA araçları alanlarında çalışan Otomasyon
+  Mühendisi.
+
+# Hakkımda bölümü: öne çıkanlar listesi. `lead` doluysa listenin üstünde bir giriş satırı olarak görünür.
+about:
+  lead: ""
+  highlights:
+    - label: Multi-Platform Testi
+      text: >-
+        Java ile web, iOS ve Android test otomasyonu (Selenium, Appium, JUnit);
+        Retrofit ve OkHttp ile API testleri.
+    - label: Framework ve Kütüphaneler
+      text: >-
+        Maven Central'da yayımlanan Pickleib test otomasyon kütüphanelerine
+        katkı; Page Object Model ve Cucumber (BDD) tabanlı başlangıç
+        çatılarının geliştirilmesi.
+    - label: QA Süreçleri
+      text: >-
+        citizenM'de sürüm onayı, dağıtım hatlarına test aşamasının kurulması ve
+        Xray'in devreye alınması; sahibinden.com'da Preprod ve Hotfix Dashboard
+        sürecinin önerilmesi ve planlanması.
+    - label: Yapay Zekâ Destekli QA
+      text: >-
+        Yapay zekâ kodlama ajanlarının ekip kurallarına uygun biçimde test
+        yazmasını, hata teşhisini ve test onarımını sağlayan Hektor skill
+        paketinin geliştirilmesi.
+
+experience:
+  - role: Test Otomasyon Mühendisi
+    company: sahibinden.com
+    url: https://www.sahibinden.com
+    about: Türkiye'nin en büyük çevrimiçi ilan platformu.
+    start: "2025-09"
+    end: null
+    bullets:
+      - >-
+        7.000'den fazla otomasyon testinin yaklaşık 1.000'inin sorumluluğu:
+        arama sonuçları ve doping (ücretli ilan öne çıkarma) testleri.
+      - >-
+        Sırasıyla iOS, Android ve web test otomasyon ekiplerinde görev; web
+        ekibinde Java, Selenium, JUnit, Jenkins ve OpenShift ile test
+        otomasyonu.
+      - >-
+        Her preprod sürümünü Jenkins işleri ve Jira kayıtları üzerinden izleyen
+        iç araç Watcher'ın fikrinin ortaya konması ve POC'sinin geliştirilmesi;
+        Preprod ve Hotfix Dashboard sürecinin önerilmesi, planlanması ve akış
+        diyagramlarıyla Confluence'ta belgelenmesi.
+      - >-
+        Yapay zekâ kodlama ajanlarının ekibin kod inceleme kurallarına uygun
+        biçimde test yazmasını ve onarmasını sağlayan Hektor skill paketinin
+        geliştirilmesi ve ekibe önerilmesi; flaky koşuların incelenmesi için
+        ayrı bir kit içerir.
+      - >-
+        Açık kaynaklı, ajan tabanlı QA metodolojisi
+        [Achilles](https://www.npmjs.com/package/@civitas-cerebrum/achilles)
+        için mevcut Java ve Selenium altyapısında pilot uygulama önerisi.
+      - >-
+        DevOps ekibiyle birlikte bir iç test servisinin ArgoCD ve Backstage'e
+        taşınması.
+
+  - role: QA Otomasyon Mühendisi
+    company: citizenM
+    url: https://www.citizenm.com/company/overview
+    via: Smart Nearshore üzerinden sözleşmeli
+    about: Hollanda merkezli, dünya genelinde faaliyet gösteren otel zinciri.
+    start: "2023-06"
+    end: "2025-08"
+    bullets:
+      - >-
+        Üç geçiş projesinde web sitesi QA sürecinin yürütülmesi: Sunrise
+        veritabanı geçişi (performans testlerinin arayüz tarafı dahil), Nuxt'a
+        geçiş ve Headless Marketing içerik geçişi.
+      - >-
+        Web sitesinin dağıtım hatlarına (pipeline) otomasyon test aşamasının
+        önerilmesi ve kurulması; sonuçların ayrı bir Slack kanalına
+        raporlanması.
+      - >-
+        Test yönetimi için Xray'in önerilmesi ve web ekibinde devreye
+        alınması.
+      - >-
+        Web sitesi için sürüm onaylayıcılığı ve Black Friday kampanyasının QA
+        koordinasyonu.
+      - >-
+        Şirketin SDLC modelinin web sitesi ve Contentful CMS için uyarlanması:
+        test aşamalarının ve iş akışlarının tanımlanması, iki ekip için
+        dokümantasyonun hazırlanması.
+      - >-
+        QA ekibinin scrum sürecinin ortak yürütülmesi, ekipteki boşluklarda
+        mobil uygulama QA desteği ve Hotel Service sitesinin (fatura,
+        rezervasyon, ödeme) uçtan uca QA süreci.
+
+  - role: Açık Kaynak Katkıları
+    company: Pickleib ve ilgili Java kütüphaneleri
+    about: Maven Central'da yayımlanan Java test otomasyon kütüphaneleri.
+    start: "2022-08"
+    end: "2025-04"
+    bullets:
+      - >-
+        Web, mobil ve API test otomasyon kütüphanesi Pickleib: yeni metotlar
+        ve yapılandırma özellikleri, birim testleri, dokümantasyon ve test
+        durumlarını izleyen StatusWatcher özelliği.
+      - >-
+        OpenAI API'si için Java kütüphanesi GPT-Utilities'in ortak
+        geliştirilmesi: ilk iskeletin ve API katmanının kurulması, ardından bu
+        kütüphaneyle Pickleib'e MongoDB Atlas destekli sohbet desteğinin
+        eklenmesi.
+      - >-
+        Retrofit ve OkHttp tabanlı API istemci kütüphanesi Wasapi: CI'da
+        koşabilmesi için Docker üzerindeki MongoDB arka ucuna karşı yazılmış
+        birim testleri.
+      - >-
+        Java-Utilities: dokümantasyon ve yeni metotlar.
+    links:
+      - label: Pickleib
+        url: https://github.com/Umutayb/Pickleib
+      - label: GPT-Utilities
+        url: https://github.com/Umutayb/GPT-Utilities
+      - label: Wasapi
+        url: https://github.com/egecansen/wasapi
+      - label: Java-Utilities
+        url: https://github.com/egecansen/Java-Utilities
+
+projects:
+  - name: Hektor
+    note: 2026, özel depo
+    text: >-
+      Büyük bir Selenium ve JUnit test paketi için ajan skill'leri. 20'den
+      fazla skill, altı alt ajan rolü ve bir dizi denetim kapısı, yapay zekâ
+      kodlama ajanlarının (Cursor) ekibin kod inceleme kurallarını çiğnemeden
+      test yazmasını, hataları teşhis etmesini ve testleri onarmasını sağlar.
+      Başarısız testleri yeniden koşturan, kök nedene göre gruplayan ve her
+      düzeltmenin geçtiğini kanıtlayan bir flaky-triage kiti içerir.
+  - name: Unified-Automation-Template
+    url: https://github.com/egecansen/Unified-Automation-Template
+    text: >-
+      Web, mobil ve API test otomasyonunu tek projede toplayan, Pickleib ve
+      Cucumber üzerine kurulu başlangıç çatısı. Etiket bazlı koşu,
+      yapılandırılabilir sürücü seçimi ve headless mod destekler.
+  - name: Appium-Springboot-Template
+    url: https://github.com/egecansen/Appium-Springboot-Template
+    text: >-
+      JUnit 5, Appium ve Spring Boot ile mobil otomasyon başlangıç projesi.
+      Maven çok modüllü yapı ve Page Object Model kullanır; Jenkins ve Docker
+      üzerinde koşar, HTML raporunu e-postayla gönderebilir.
+  - name: Simplified-Automation-Template
+    url: https://github.com/egecansen/Simplified-Automation-Template
+    text: >-
+      Selenium ve Cucumber ile arayüz testleri, Retrofit ve OkHttp ile API
+      testleri; ortak adım tanımları ve kendiliğinden oluşturulan page
+      object'ler içerir.
+
+skills:
+  - group: Test otomasyonu
+    items: Selenium, Appium, JUnit 5, Cucumber (BDD), Page Object Model
+  - group: API testi
+    items: Retrofit, OkHttp, Postman
+  - group: Dil ve derleme
+    items: Java, Maven, Spring Boot, Git
+  - group: CI/CD
+    items: Jenkins, Azure DevOps, ArgoCD
+  - group: Altyapı
+    items: Docker, OpenShift
+  - group: Süreç
+    items: Jira, Xray, Confluence, sürüm onayı, SDLC tasarımı
+  - group: Performans
+    items: OctoPerf
+  - group: Yapay zekâ ile QA
+    items: Cursor için ajan skill'leri ve hook'lar, OpenAI API entegrasyonu
+
+education:
+  - degree: Müzik Teknolojisi, Lisans
+    school: Dokuz Eylül Üniversitesi, Müzik Bilimleri Bölümü
+  - degree: Protohistorya ve Ön Asya Arkeolojisi, Lisans
+    school: Ege Üniversitesi, Edebiyat Fakültesi
+
+certification:
+  - name: ISTQB Certified Tester, Foundation Level (CTFL)
+    url: https://app.diplomasafe.com/en-US/diploma/d6986af934382732dc7c4c93486d8072d37f79e92
+
+ui:
+  about: Hakkımda
+  experience: Deneyim
+  projects: Projeler
+  skills: Yetkinlikler
+  education: Eğitim
+  certification: Sertifika
+  present: Halen
+  email: E-posta
+  download: PDF indir
+  photo_alt: Egecan Şen'in portresi
+  updated: Güncelleme
+  footer: Eleventy ile üretildi; her yayında Playwright ile kontrol ediliyor.
+  source: Kaynak kodu GitHub'da
