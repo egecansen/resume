@@ -72,7 +72,6 @@ permalink: "{{ lang.path }}index.html"
         {%- for link in site.links %}
         <li><a href="{{ link.url }}">{{ link.display }}</a></li>
         {%- endfor %}
-        <li>{{ t.online }}: <a href="{{ pageUrl }}">{{ pageUrl | replace("https://", "") }}</a></li>
       </ul>
     </header>
 

@@ -192,4 +192,3 @@ ui:
   updated: Updated
   footer: Built with Eleventy and checked with Playwright on every deploy.
   source: Source on GitHub
-  online: Online version

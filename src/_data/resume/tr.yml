@@ -3,36 +3,36 @@
 # aynı sırada aynı kayıtlar, aynı sayıda madde, aynı tarihler ve bağlantılar.
 # İki dosya birbirinden saparsa `npm test` hata verir.
 
-title: Test Otomasyon Mühendisi
+title: Otomasyon Mühendisi
 location: İstanbul, Türkiye
 description: >-
-  Egecan Şen'in özgeçmişi. Java ile web, iOS ve Android test otomasyonu ve
-  yapay zekâ kodlama ajanları için QA araçları üzerine çalışan Test Otomasyon
+  Egecan Şen'in özgeçmişi: Java ile web, iOS ve Android test otomasyonu ve
+  yapay zekâ kodlama ajanları için QA araçları alanlarında çalışan Otomasyon
   Mühendisi.
 
 # Hakkımda bölümü: bir giriş satırı ve öne çıkanlar listesi.
 about:
-  lead: "Deneyim alanlarım:"
+  lead: "Deneyim alanları:"
   highlights:
-    - label: Çoklu Platform Testi
+    - label: Multi-Platform Testi
       text: >-
-        Java ile web, iOS ve Android test otomasyonu: Selenium, Appium ve
-        JUnit; API testlerinde Retrofit ve OkHttp.
+        Java ile web, iOS ve Android test otomasyonu (Selenium, Appium, JUnit);
+        Retrofit ve OkHttp ile API testleri.
     - label: Framework ve Kütüphaneler
       text: >-
         Maven Central'da yayımlanan Pickleib test otomasyon kütüphanelerine
-        katkı verdim; Page Object Model ve Cucumber ile BDD üzerine başlangıç
-        çatıları geliştirdim.
-    - label: Sürüm ve QA Süreçleri
+        katkı; Page Object Model ve Cucumber (BDD) tabanlı başlangıç
+        çatılarının geliştirilmesi.
+    - label: QA Süreçleri
       text: >-
-        citizenM'de sürüm onaylayıcısıydım; dağıtım hatlarına test aşaması
-        kurdum ve Xray'i devreye aldım. sahibinden.com'da Preprod ve Hotfix
-        Dashboard sürecini önerip planladım.
+        citizenM'de sürüm onayı, dağıtım hatlarına test aşamasının kurulması ve
+        Xray'in devreye alınması; sahibinden.com'da Preprod ve Hotfix Dashboard
+        sürecinin önerilmesi ve planlanması.
     - label: Yapay Zekâ Destekli QA
       text: >-
-        Yapay zekâ kodlama ajanlarının ekibin inceleme kurallarına uyarak test
-        yazmasını, hataları teşhis etmesini ve testleri onarmasını sağlayan
-        Hektor skill paketini geliştirdim.
+        Yapay zekâ kodlama ajanlarının ekip kurallarına uygun biçimde test
+        yazmasını, hata teşhisini ve test onarımını sağlayan Hektor skill
+        paketinin geliştirilmesi.
 
 experience:
   - role: Test Otomasyon Mühendisi
@@ -43,29 +43,29 @@ experience:
     end: null
     bullets:
       - >-
-        7.000'den fazla otomasyon testinin yaklaşık 1.000'inden sorumluyum:
+        7.000'den fazla otomasyon testinin yaklaşık 1.000'inin sorumluluğu:
         arama sonuçları ve doping (ücretli ilan öne çıkarma) testleri.
       - >-
-        iOS test otomasyon ekibinde başladım, ardından Android ekibine geçtim;
-        şimdi web ekibinde Java, Selenium, JUnit, Jenkins ve OpenShift ile
-        çalışıyorum.
+        Sırasıyla iOS, Android ve web test otomasyon ekiplerinde görev; web
+        ekibinde Java, Selenium, JUnit, Jenkins ve OpenShift ile test
+        otomasyonu.
       - >-
         Her preprod sürümünü Jenkins işleri ve Jira kayıtları üzerinden izleyen
-        iç araç Watcher'ın fikrini ortaya attım ve POC'sini geliştirdim.
-        Ardından Preprod ve Hotfix Dashboard sürecini önerip planladım, süreci
-        akış diyagramlarıyla Confluence'ta belgeledim.
+        iç araç Watcher'ın fikrinin ortaya konması ve POC'sinin geliştirilmesi;
+        Preprod ve Hotfix Dashboard sürecinin önerilmesi, planlanması ve akış
+        diyagramlarıyla Confluence'ta belgelenmesi.
       - >-
-        Yapay zekâ kodlama ajanlarının ekibin kod inceleme kurallarına uyarak
-        test yazmasını ve onarmasını sağlayan Hektor adlı skill paketini
-        geliştirdim ve ekibe önerdim; flaky koşuların incelenmesi için ayrı bir
-        kit de içeriyor.
+        Yapay zekâ kodlama ajanlarının ekibin kod inceleme kurallarına uygun
+        biçimde test yazmasını ve onarmasını sağlayan Hektor skill paketinin
+        geliştirilmesi ve ekibe önerilmesi; flaky koşuların incelenmesi için
+        ayrı bir kit içerir.
       - >-
         Açık kaynaklı, ajan tabanlı QA metodolojisi
-        [Achilles](https://www.npmjs.com/package/@civitas-cerebrum/achilles)'in
-        mevcut Java ve Selenium altyapısında pilot olarak denenmesini önerdim.
+        [Achilles](https://www.npmjs.com/package/@civitas-cerebrum/achilles)
+        için mevcut Java ve Selenium altyapısında pilot uygulama önerisi.
       - >-
-        DevOps ekibiyle birlikte bir iç test servisini ArgoCD ve Backstage'e
-        taşıdım.
+        DevOps ekibiyle birlikte bir iç test servisinin ArgoCD ve Backstage'e
+        taşınması.
 
   - role: QA Otomasyon Mühendisi
     company: citizenM
@@ -76,27 +76,27 @@ experience:
     end: "2025-08"
     bullets:
       - >-
-        Web sitesinin QA sürecini üç geçiş projesi boyunca yürüttüm: Sunrise
+        Üç geçiş projesinde web sitesi QA sürecinin yürütülmesi: Sunrise
         veritabanı geçişi (performans testlerinin arayüz tarafı dahil), Nuxt'a
         geçiş ve Headless Marketing içerik geçişi.
       - >-
-        Web sitesinin dağıtım hatlarına (pipeline) otomasyon test aşaması
-        eklenmesini önerdim ve kurdum; sonuçlar ayrı bir Slack kanalına
-        raporlanıyordu.
+        Web sitesinin dağıtım hatlarına (pipeline) otomasyon test aşamasının
+        önerilmesi ve kurulması; sonuçların ayrı bir Slack kanalına
+        raporlanması.
       - >-
-        Test yönetimi için Xray'i önerdim ve web ekibindeki kurulumunu
-        üstlendim.
+        Test yönetimi için Xray'in önerilmesi ve web ekibinde devreye
+        alınması.
       - >-
-        Web sitesinin sürüm onaylayıcılarından biri oldum ve Black Friday
-        kampanyasının QA koordinasyonunu yürüttüm.
+        Web sitesi için sürüm onaylayıcılığı ve Black Friday kampanyasının QA
+        koordinasyonu.
       - >-
-        Şirketin SDLC modelini web sitesi ve Contentful CMS için uyarladım:
-        test aşamalarını ve iş akışlarını tanımladım, iki ekip için
-        dokümantasyonu yazdım.
+        Şirketin SDLC modelinin web sitesi ve Contentful CMS için uyarlanması:
+        test aşamalarının ve iş akışlarının tanımlanması, iki ekip için
+        dokümantasyonun hazırlanması.
       - >-
-        QA ekibinin scrum sürecini birlikte yürüttüm, ekipte boşluk olduğunda
-        mobil uygulamanın QA'ini üstlendim ve Hotel Service sitesinin (fatura,
-        rezervasyon, ödeme) uçtan uca QA sürecini yürüttüm.
+        QA ekibinin scrum sürecinin ortak yürütülmesi, ekipteki boşluklarda
+        mobil uygulama QA desteği ve Hotel Service sitesinin (fatura,
+        rezervasyon, ödeme) uçtan uca QA süreci.
 
   - role: Açık Kaynak Katkıları
     company: Pickleib ve ilgili Java kütüphaneleri
@@ -106,19 +106,19 @@ experience:
     bullets:
       - >-
         Web, mobil ve API test otomasyon kütüphanesi Pickleib: yeni metotlar
-        ve yapılandırma özellikleri ekledim, birim testlerini ve
-        dokümantasyonu yazdım, test durumlarını izleyen StatusWatcher
-        özelliğini geliştirdim.
+        ve yapılandırma özellikleri, birim testleri, dokümantasyon ve test
+        durumlarını izleyen StatusWatcher özelliği.
       - >-
-        OpenAI API'si için bir Java kütüphanesi olan GPT-Utilities'in ortak
-        geliştiricisiyim: ilk iskeleti ve API katmanını kurdum, ardından bu
-        kütüphaneyle Pickleib'e MongoDB Atlas destekli sohbet desteği ekledim.
+        OpenAI API'si için Java kütüphanesi GPT-Utilities'in ortak
+        geliştirilmesi: ilk iskeletin ve API katmanının kurulması, ardından bu
+        kütüphaneyle Pickleib'e MongoDB Atlas destekli sohbet desteğinin
+        eklenmesi.
       - >-
-        Retrofit ve OkHttp üzerine kurulu API istemci yardımcıları Wasapi:
-        birim testlerini, CI'da koşabilmeleri için Docker üzerindeki bir
-        MongoDB arka ucuna karşı yazdım.
+        Retrofit ve OkHttp tabanlı API istemci kütüphanesi Wasapi: CI'da
+        koşabilmesi için Docker üzerindeki MongoDB arka ucuna karşı yazılmış
+        birim testleri.
       - >-
-        Java-Utilities: dokümantasyonu yazdım ve yeni metotlar ekledim.
+        Java-Utilities: dokümantasyon ve yeni metotlar.
     links:
       - label: Pickleib
         url: https://github.com/Umutayb/Pickleib
@@ -200,4 +200,3 @@ ui:
   updated: Güncelleme
   footer: Eleventy ile üretildi; her yayında Playwright ile kontrol ediliyor.
   source: Kaynak kodu GitHub'da
-  online: Çevrimiçi sürüm
