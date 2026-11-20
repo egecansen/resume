@@ -47,9 +47,8 @@ experience:
         otomasyonu.
       - >-
         Her preprod sürümünü Jenkins işleri ve Jira kayıtları üzerinden izleyen
-        iç araç Watcher'ın fikrinin ortaya konması ve POC'sinin geliştirilmesi;
-        Preprod ve Hotfix Dashboard sürecinin önerilmesi, planlanması ve akış
-        diyagramlarıyla Confluence'ta belgelenmesi.
+        watcher'ın fikrinin ortaya konması ve POC'sinin geliştirilmesi; Preprod
+        ve Hotfix Dashboard sürecinin önerilmesi ve planlanması.
       - >-
         Yapay zekâ kodlama ajanlarının ekibin kod inceleme kurallarına uygun
         biçimde test yazmasını ve onarmasını sağlayan Hektor skill paketinin
