@@ -1,7 +1,11 @@
 title: Egecan Şen
 logo: /assets/img/pp.jpg
-email: 
-description: canegecansen@gmail.com
+tagline: Test Automation Engineer
+email: canegecansen@gmail.com
+description: >-
+  Resume of Egecan Şen, a Test Automation Engineer working across web,
+  mobile and API test automation with Java and Selenium.
+lang: en
 show_downloads: false
 google_analytics: 
 color-scheme: dark
@@ -19,8 +23,21 @@ sidebar:
     link: https://github.com/egecansen
   - name: Email
     icon: <i class="fa-solid fa-pen"></i>
-    link: mailto:benegecansen@gmail.com
+    link: mailto:canegecansen@gmail.com
   - name: Download
     icon: <i class="fa-solid fa-file-pdf"></i>
     link: https://github.com/egecansen/resume/raw/main/assets/files/Egecan%20Sen%20-%20Resume.pdf
 github: [metadata]
+
+# Keep repo tooling out of the published site
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - dockerfile
+  - docker-compose.yml
+  - deploy.sh
+  - jekyll-theme-minimalist.gemspec
+  - script

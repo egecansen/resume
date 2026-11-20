@@ -108,7 +108,7 @@ Smart is a Portugal-based company that provides information technology and consu
   
 ## Appium-Springboot-Template
 
-- This project is a automation testing framework built with JUnit 5, Appium, and Spring Boot, designed to support mobile automation.
+- This project is an automation testing framework built with JUnit 5, Appium, and Spring Boot, designed to support mobile automation.
 - Project is designed for CI/CD integration using Jenkins and Docker. All dependencies are installed inside the Jenkins container automatically. 
 - UI automation follows the Page Object Model for clarity and maintainability.
 - API tests use a custom library layered on Retrofit & OkHttp for seamless integration and request handling.
@@ -121,7 +121,7 @@ Smart is a Portugal-based company that provides information technology and consu
 ## Open-Source Project Contributions
 
 - ***[Pickleib](https://github.com/egecansen/Pickleib){:target="_blank" rel="noopener noreferrer"}***
-  - Pickelib is a quickstart library for test automation projects capable of webUI, mobileUI, API, database, data layer & email tests.
+  - Pickleib is a quickstart library for test automation projects capable of webUI, mobileUI, API, database, data layer & email tests.
   - Improved documentation, added new methods, property configurations and scalability for future upgrades.
   - Created unit tests and StatusWatcher feature for monitoring the test statuses.
   - A MongoDB database was created containing methods and documentation of the library. 
