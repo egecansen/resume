@@ -13,25 +13,26 @@ description: >-
 about:
   lead: "Deneyim alanlarım:"
   highlights:
-    - label: Büyük test paketleri
+    - label: Büyük Ölçekli Test Otomasyonu
       text: >-
         Türkiye'nin en büyük çevrimiçi ilan platformu sahibinden.com'da
-        7.000'den fazla otomasyon testinin yaklaşık 1.000'inden sorumluyum.
-    - label: Web, iOS ve Android
+        7.000'den fazla otomasyon testinin yaklaşık 1.000'i benim
+        sorumluluğumda.
+    - label: Çoklu Platform Testi
       text: >-
-        Üç platformun da test otomasyon ekibinde çalıştım; Java ile Selenium,
-        Appium ve JUnit, API testlerinde Retrofit ve OkHttp kullanıyorum.
-    - label: Framework ve kütüphaneler
+        Java ile web, iOS ve Android test otomasyonu: Selenium, Appium ve
+        JUnit; API testlerinde Retrofit ve OkHttp.
+    - label: Framework ve Kütüphaneler
       text: >-
         Maven Central'da yayımlanan Pickleib test otomasyon kütüphanelerine
         katkı verdim; Page Object Model ve Cucumber ile BDD üzerine başlangıç
         çatıları geliştirdim.
-    - label: Sürüm ve QA süreçleri
+    - label: Sürüm ve QA Süreçleri
       text: >-
         citizenM'de sürüm onaylayıcısıydım; dağıtım hatlarına test aşaması
         kurdum ve Xray'i devreye aldım. sahibinden.com'da Preprod ve Hotfix
         Dashboard sürecini önerip planladım.
-    - label: Yapay zekâ destekli QA
+    - label: Yapay Zekâ Destekli QA
       text: >-
         Yapay zekâ kodlama ajanlarının ekibin inceleme kurallarına uyarak test
         yazmasını, hataları teşhis etmesini ve testleri onarmasını sağlayan

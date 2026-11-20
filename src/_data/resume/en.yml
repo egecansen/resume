@@ -12,24 +12,24 @@ description: >-
 about:
   lead: "Experienced in:"
   highlights:
-    - label: Large test suites
+    - label: Test Automation at Scale
       text: >-
-        Responsible for close to 1,000 of 7,000+ automated tests at
-        sahibinden.com, Turkey's largest online classifieds platform.
-    - label: Web, iOS and Android
+        Own close to 1,000 of the 7,000+ automated tests at sahibinden.com,
+        Turkey's largest online classifieds platform.
+    - label: Cross-Platform Testing
       text: >-
-        Worked on all three test automation teams, in Java with Selenium,
-        Appium and JUnit, plus API testing with Retrofit and OkHttp.
-    - label: Frameworks and libraries
+        Web, iOS and Android test automation in Java with Selenium, Appium and
+        JUnit, plus API testing with Retrofit and OkHttp.
+    - label: Frameworks and Libraries
       text: >-
         Contributor to the Pickleib test automation libraries on Maven Central;
         built starter frameworks on Page Object Model and BDD with Cucumber.
-    - label: Release and QA process
+    - label: Release and QA Process
       text: >-
         Release approver at citizenM, where I set up a test stage in the
         deployment pipelines and rolled out Xray; proposed and planned the
         Preprod and Hotfix dashboard process at sahibinden.com.
-    - label: AI-assisted QA
+    - label: AI-Assisted QA
       text: >-
         Built Hektor, a skills pack that lets AI coding agents write, diagnose
         and repair tests within a team's review rules.
