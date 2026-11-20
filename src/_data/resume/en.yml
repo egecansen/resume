@@ -3,17 +3,17 @@
 # same entries in the same order, same number of bullets, same dates and links.
 # `npm test` fails if the two files drift apart.
 
-title: Test Automation Engineer
+title: Automation Engineer
 location: Istanbul, Turkey
 description: >-
-  Resume of Egecan Şen, a Test Automation Engineer working on web, iOS and
+  Resume of Egecan Şen, an Automation Engineer working on web, iOS and
   Android test automation in Java, and on QA tooling for AI coding agents.
 
 # The About section: a list of highlights. `lead` is an optional line above the list; leave it "" to hide it.
 about:
   lead: "Experienced in:"
   highlights:
-    - label: Cross-Platform Testing
+    - label: Multi-Platform Testing
       text: >-
         Web, iOS and Android test automation in Java with Selenium, Appium and
         JUnit, plus API testing with Retrofit and OkHttp.
@@ -21,7 +21,7 @@ about:
       text: >-
         Contributor to the Pickleib test automation libraries on Maven Central;
         built starter frameworks on Page Object Model and BDD with Cucumber.
-    - label: Release and QA Process
+    - label: QA Processes
       text: >-
         Release approver at citizenM, where I set up a test stage in the
         deployment pipelines and rolled out Xray; proposed and planned the
