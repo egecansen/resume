@@ -369,13 +369,6 @@ strong {
     margin-bottom: 4pt;
     font-size: 11.5pt;
   }
-  .meta {
-    display: inline;
-    margin: 0;
-  }
-  .meta br {
-    display: none;
-  }
   .contact {
     display: inline;
     margin: 0;
@@ -384,7 +377,6 @@ strong {
     display: inline;
     white-space: nowrap;
   }
-  .meta::after,
   .contact li:not(:last-child)::after {
     content: "  |  ";
     color: var(--faint);

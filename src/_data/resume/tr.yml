@@ -4,7 +4,6 @@
 # İki dosya birbirinden saparsa `npm test` hata verir.
 
 title: Otomasyon Mühendisi
-location: İstanbul, Türkiye
 description: >-
   Egecan Şen'in özgeçmişi: Java ile web, iOS ve Android test otomasyonu ve
   yapay zekâ kodlama ajanları için QA araçları alanlarında çalışan Otomasyon
