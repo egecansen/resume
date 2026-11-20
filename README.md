@@ -26,7 +26,7 @@ Needs Node 20 or newer.
 
 ```bash
 npm install
-npx playwright install chromium   # once: the browser that prints the PDFs and runs the tests
+npx playwright install --only-shell chromium   # once: the browser that prints the PDFs and runs the tests
 
 npm run dev       # live-reloading preview while you edit (no PDFs)
 npm run build     # full build into _site/, including the PDFs

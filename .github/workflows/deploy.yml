@@ -39,8 +39,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # The runner image already has the system libraries Chromium needs, so
+      # only the browser itself is downloaded. Add --with-deps if that changes.
       - name: Install the browser used for PDFs and tests
-        run: npx playwright install --with-deps chromium
+        run: npx playwright install --only-shell chromium
 
       - name: Build the site and the PDFs
         run: npm run build
