@@ -14,21 +14,19 @@ about:
   highlights:
     - label: Multi-Platform Testing
       text: >-
-        UI and API test automation across web, iOS and Android, including work
-        on all three platform teams at sahibinden.com.
+        UI and API test automation across web, iOS and Android.
     - label: Frameworks and Libraries
       text: >-
-        Contributor to the Pickleib test automation libraries on Maven Central;
-        built starter frameworks on Page Object Model and BDD with Cucumber.
+        Building test automation frameworks and starter templates, and
+        contributing to open-source test automation libraries.
     - label: QA Processes
       text: >-
-        Release approver at citizenM, where I set up a test stage in the
-        deployment pipelines and rolled out Xray; proposed and planned the
-        Preprod and Hotfix dashboard process at sahibinden.com.
+        Release approval, automated test stages in deployment pipelines, test
+        management rollout, and pre-production and hotfix process design.
     - label: AI-Assisted QA
       text: >-
-        Built Hektor, a skills pack that lets AI coding agents write, diagnose
-        and repair tests within a team's review rules.
+        Building tooling that lets AI coding agents write, diagnose and repair
+        tests within a team's review rules.
 
 experience:
   - role: Test Automation Engineer
