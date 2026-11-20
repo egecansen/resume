@@ -12,10 +12,6 @@ description: >-
 about:
   lead: "Experienced in:"
   highlights:
-    - label: Test Automation at Scale
-      text: >-
-        Own close to 1,000 of the 7,000+ automated tests at sahibinden.com,
-        Turkey's largest online classifieds platform.
     - label: Cross-Platform Testing
       text: >-
         Web, iOS and Android test automation in Java with Selenium, Appium and

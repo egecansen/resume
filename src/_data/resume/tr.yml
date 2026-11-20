@@ -13,11 +13,6 @@ description: >-
 about:
   lead: "Deneyim alanlarım:"
   highlights:
-    - label: Büyük Ölçekli Test Otomasyonu
-      text: >-
-        Türkiye'nin en büyük çevrimiçi ilan platformu sahibinden.com'da
-        7.000'den fazla otomasyon testinin yaklaşık 1.000'i benim
-        sorumluluğumda.
     - label: Çoklu Platform Testi
       text: >-
         Java ile web, iOS ve Android test otomasyonu: Selenium, Appium ve
