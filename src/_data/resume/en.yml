@@ -43,10 +43,10 @@ experience:
         Started on the iOS test automation team, moved to Android, and now work
         on the web team with Java, Selenium, JUnit, Jenkins and OpenShift.
       - >-
-        Came up with Watcher, an internal console that tracks each
-        pre-production release across Jenkins jobs and Jira tickets. Built the
-        proof of concept, then proposed and planned the Preprod and Hotfix
-        dashboard process and documented it with flow diagrams in Confluence.
+        Came up with watcher, a console that tracks each pre-production
+        release across Jenkins jobs and Jira tickets. Built the proof of
+        concept, then proposed and planned the Preprod and Hotfix dashboard
+        process.
       - >-
         Built and proposed Hektor, a skills pack that lets AI coding agents
         write and repair tests for the suite within the team's review rules,
