@@ -52,7 +52,7 @@ permalink: "{{ lang.path }}index.html"
       <img class="photo" src="{{ root }}{{ site.photo }}" alt="{{ t.photo_alt }}" width="480" height="476">
       <h1><a href="{{ (root + lang.path) or './' }}">{{ site.name }}</a></h1>
       <p class="title">{{ r.title }}</p>
-      <p class="meta">{{ r.location }}<br><span class="on-screen">{{ site.email }}</span></p>
+      <p class="meta on-screen">{{ site.email }}</p>
 
       <ul class="links on-screen">
         {%- for link in site.links %}
