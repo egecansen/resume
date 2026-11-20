@@ -12,3 +12,8 @@ vendor/
 .DS_Store
 .idea/
 .vscode/
+
+# Node
+node_modules/
+test-results/
+playwright-report/

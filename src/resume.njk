@@ -1,0 +1,207 @@
+---
+pagination:
+  data: site.languages
+  size: 1
+  alias: lang
+permalink: "{{ lang.path }}index.html"
+---
+{%- set r = resume[lang.code] -%}
+{%- set t = r.ui -%}
+{%- set root = lang.root -%}
+{%- set pageUrl = build.siteUrl + "/" + lang.path -%}
+<!doctype html>
+<html lang="{{ lang.code }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.name }} | {{ r.title }}</title>
+  <meta name="description" content="{{ r.description }}">
+  <meta name="author" content="{{ site.name }}">
+  <meta name="color-scheme" content="light dark">
+  <link rel="canonical" href="{{ pageUrl }}">
+  {%- for l in site.languages %}
+  <link rel="alternate" hreflang="{{ l.code }}" href="{{ build.siteUrl }}/{{ l.path }}">
+  {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ build.siteUrl }}/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="{{ site.name }} | {{ r.title }}">
+  <meta property="og:description" content="{{ r.description }}">
+  <meta property="og:url" content="{{ pageUrl }}">
+  <meta property="og:image" content="{{ build.siteUrl }}/{{ site.photo }}">
+  <meta property="og:locale" content="{{ 'tr_TR' if lang.code == 'tr' else 'en_US' }}">
+  <link rel="icon" href="{{ root }}assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="{{ root }}assets/fonts/atkinson-hyperlegible-next-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ root }}assets/css/style.css">
+  <script>
+    // Apply a saved theme before first paint. Without one, the system setting decides.
+    try {
+      var saved = localStorage.getItem("theme");
+      if (saved === "light" || saved === "dark") document.documentElement.dataset.theme = saved;
+    } catch (e) {}
+  </script>
+  <script type="application/ld+json">
+    {{ {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": site.name,
+      "jobTitle": r.title,
+      "url": pageUrl,
+      "email": "mailto:" + site.email,
+      "worksFor": { "@type": "Organization", "name": r.experience[0].company },
+      "sameAs": [site.links[0].url, site.links[1].url]
+    } | jsonld | safe }}
+  </script>
+</head>
+<body>
+  <div class="page">
+
+    <nav class="controls" aria-label="{{ t.language }}">
+      <ul class="lang-switch">
+        {%- for l in site.languages %}
+        <li><a href="{{ (root + l.path) or './' }}" lang="{{ l.code }}" hreflang="{{ l.code }}"{% if l.code == lang.code %} aria-current="page"{% endif %}>{{ l.label }}</a></li>
+        {%- endfor %}
+      </ul>
+      <div class="actions">
+        <button class="theme-toggle" type="button" aria-label="{{ t.theme }}" title="{{ t.theme }}">
+          <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 2a8 8 0 0 1 0 16z" fill="currentColor"/></svg>
+        </button>
+        <a class="download" href="{{ root }}{{ lang.pdf }}" download>{{ t.download }}</a>
+      </div>
+    </nav>
+
+    <header class="intro row">
+      <div class="gutter">
+        <img class="photo" src="{{ root }}{{ site.photo }}" alt="{{ t.photo_alt }}" width="480" height="476">
+      </div>
+      <div class="main">
+        <h1>{{ site.name }}</h1>
+        <p class="title">{{ r.title }}</p>
+        <p class="summary">{{ r.summary }}</p>
+
+        <ul class="contact">
+          <li>{{ r.location }}</li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- for link in site.links %}
+          <li><a href="{{ link.url }}" rel="me"><span class="on-screen">{{ link.label }}</span><span class="on-paper">{{ link.display }}</span></a></li>
+          {%- endfor %}
+          <li class="on-paper">{{ t.online }}: <a href="{{ pageUrl }}">{{ pageUrl | replace("https://", "") }}</a></li>
+        </ul>
+
+        {%- if site.suite %}
+        <figure class="suite">
+          <div class="suite-cells" role="img" aria-label="{{ t.suite_alt }}" style="--cells: {{ site.suite.cells }}">
+            {%- for i in range(0, site.suite.cells) %}<span{% if i < site.suite.owned %} class="owned" style="--i: {{ i }}"{% endif %}></span>{% endfor -%}
+          </div>
+          <figcaption>{{ r.suite_caption }}</figcaption>
+        </figure>
+        {%- endif %}
+      </div>
+    </header>
+
+    <main>
+      <section aria-labelledby="experience">
+        <h2 id="experience">{{ t.experience }}</h2>
+        {%- for job in r.experience %}
+        <article class="row entry">
+          <p class="gutter dates">
+            <span><time datetime="{{ job.start }}">{{ job.start | monthYear(lang.code) }}</time> –</span>
+            <span>{% if job.end %}<time datetime="{{ job.end }}">{{ job.end | monthYear(lang.code) }}</time>{% else %}{{ t.present }}{% endif %}</span>
+          </p>
+          <div class="main">
+            <h3>{{ job.role }}</h3>
+            <p class="org">
+              {%- if job.url %}<a href="{{ job.url }}">{{ job.company }}</a>{% else %}{{ job.company }}{% endif %}
+              {%- if job.via %}, {{ job.via }}{% endif -%}
+            </p>
+            <p class="about">{{ job.about }}</p>
+            <ul class="bullets">
+              {%- for bullet in job.bullets %}
+              <li>{{ bullet }}</li>
+              {%- endfor %}
+            </ul>
+            {%- if job.links %}
+            <ul class="inline-links">
+              {%- for link in job.links %}
+              <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+              {%- endfor %}
+            </ul>
+            {%- endif %}
+          </div>
+        </article>
+        {%- endfor %}
+      </section>
+
+      <section aria-labelledby="projects">
+        <h2 id="projects">{{ t.projects }}</h2>
+        {%- for project in r.projects %}
+        <article class="row entry">
+          <p class="gutter note">{{ project.note }}</p>
+          <div class="main">
+            <h3>{% if project.url %}<a href="{{ project.url }}">{{ project.name }}</a>{% else %}{{ project.name }}{% endif %}</h3>
+            <p>{{ project.text }}</p>
+          </div>
+        </article>
+        {%- endfor %}
+      </section>
+
+      <section aria-labelledby="skills">
+        <h2 id="skills">{{ t.skills }}</h2>
+        <dl class="skills">
+          {%- for skill in r.skills %}
+          <div class="row">
+            <dt class="gutter">{{ skill.group }}</dt>
+            <dd class="main">{{ skill.items }}</dd>
+          </div>
+          {%- endfor %}
+        </dl>
+      </section>
+
+      <section aria-labelledby="education">
+        <h2 id="education">{{ t.education }}</h2>
+        {%- for item in r.education %}
+        <div class="row entry compact">
+          <div class="gutter"></div>
+          <div class="main">
+            <h3>{{ item.degree }}</h3>
+            <p class="about">{{ item.school }}</p>
+          </div>
+        </div>
+        {%- endfor %}
+      </section>
+
+      <section aria-labelledby="certification">
+        <h2 id="certification">{{ t.certification }}</h2>
+        {%- for item in r.certification %}
+        <div class="row entry compact">
+          <div class="gutter"></div>
+          <div class="main">
+            <h3>{% if item.url %}<a href="{{ item.url }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</h3>
+          </div>
+        </div>
+        {%- endfor %}
+      </section>
+    </main>
+
+    <footer class="row site-footer">
+      <div class="gutter"></div>
+      <p class="main">
+        {{ t.updated }}: {{ build.date | longMonthYear(lang.code) }}.
+        {{ t.footer }}
+        <a href="{{ site.repo }}">{{ t.source }}</a>.
+      </p>
+    </footer>
+
+  </div>
+
+  <script>
+    document.querySelector(".theme-toggle").addEventListener("click", function () {
+      var el = document.documentElement;
+      var dark = el.dataset.theme
+        ? el.dataset.theme === "dark"
+        : window.matchMedia("(prefers-color-scheme: dark)").matches;
+      el.dataset.theme = dark ? "light" : "dark";
+      try { localStorage.setItem("theme", el.dataset.theme); } catch (e) {}
+    });
+  </script>
+</body>
+</html>
