@@ -82,7 +82,7 @@ permalink: "{{ lang.path }}index.html"
         <p class="about-lead">{{ r.about.lead }}</p>
         <ul class="highlights">
           {%- for item in r.about.highlights %}
-          <li><strong><em>{{ item.label }}:</em></strong> {{ item.text }}</li>
+          <li><strong><em>{{ item.label }}:</em></strong> {{ item.text | inline | safe }}</li>
           {%- endfor %}
         </ul>
       </section>
@@ -99,7 +99,7 @@ permalink: "{{ lang.path }}index.html"
           <p class="job-about">{{ job.about }}{% if job.via %} {{ job.via | upperFirst }}.{% endif %}</p>
           <ul class="bullets">
             {%- for bullet in job.bullets %}
-            <li>{{ bullet }}</li>
+            <li>{{ bullet | inline | safe }}</li>
             {%- endfor %}
           </ul>
           {%- if job.links %}
@@ -121,7 +121,7 @@ permalink: "{{ lang.path }}index.html"
             <strong>{% if project.url %}<a href="{{ project.url }}" target="_blank" rel="noopener">{{ project.name }}</a>{% else %}{{ project.name }}{% endif %}</strong>
             {%- if project.note %} <em>({{ project.note }})</em>{% endif %}
           </h3>
-          <p>{{ project.text }}</p>
+          <p>{{ project.text | inline | safe }}</p>
         </article>
         {%- endfor %}
       </section>

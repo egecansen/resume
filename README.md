@@ -13,6 +13,8 @@ All text lives in three files. You never need to touch the HTML.
 | `src/_data/resume/en.yml` | English text |
 | `src/_data/resume/tr.yml` | Turkish text |
 
+To link a word inside any sentence, write `[word](https://address)`.
+
 The two language files must keep the same structure: the same entries in the
 same order, the same number of bullets, the same dates and links. Change one,
 change the other. The tests fail if they drift apart.

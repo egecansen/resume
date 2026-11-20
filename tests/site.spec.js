@@ -19,11 +19,18 @@ const shape = (value, key = "") => {
   return ["start", "end", "url"].includes(key) ? value : typeof value;
 };
 
+// Links written inside sentences as [text](https://address), in order.
+const inlineLinks = (value) =>
+  [...JSON.stringify(value).matchAll(/\]\((https?:[^)\s]+)\)/g)].map((match) => match[1]);
+
 test("every language file has the same structure, dates and links", () => {
   const [first, ...rest] = site.languages;
   for (const lang of rest) {
     expect(shape(content[lang.code]), `${lang.code}.yml vs ${first.code}.yml`).toEqual(
       shape(content[first.code]),
+    );
+    expect(inlineLinks(content[lang.code]), `links inside sentences in ${lang.code}.yml`).toEqual(
+      inlineLinks(content[first.code]),
     );
   }
 });
@@ -49,6 +56,10 @@ for (const lang of site.languages) {
         await expect(page.getByRole("heading", { level: 2, name: text.ui[section] })).toBeVisible();
       }
       await expect(page.locator(".highlights li")).toHaveCount(text.about.highlights.length);
+      for (const url of inlineLinks(text)) {
+        await expect(page.locator(`main a[href="${url}"]`)).toHaveCount(1);
+      }
+      await expect(page.locator("main")).not.toContainText("](");
       await expect(page.locator(".job .role").first()).toHaveText(text.experience[0].role);
       await expect(page.locator(".bullets li")).toHaveCount(
         text.experience.reduce((total, job) => total + job.bullets.length, 0),

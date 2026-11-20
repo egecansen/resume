@@ -1,4 +1,5 @@
-# English content. Keep the structure identical to tr.yml:
+# English content. To link a word inside any sentence, write [word](https://address).
+# Keep the structure identical to tr.yml:
 # same entries in the same order, same number of bullets, same dates and links.
 # `npm test` fails if the two files drift apart.
 
@@ -54,8 +55,9 @@ experience:
         write and repair tests for the suite within the team's review rules,
         with a separate kit for triaging flaky runs.
       - >-
-        Proposed piloting Achilles, an open-source agentic QA methodology, on
-        the existing Java and Selenium stack.
+        Proposed piloting [Achilles](https://www.npmjs.com/package/@civitas-cerebrum/achilles),
+        an open-source agentic QA methodology, on the existing Java and
+        Selenium stack.
       - >-
         Worked with DevOps to bring an internal test service onto ArgoCD and
         Backstage.

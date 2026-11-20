@@ -1,4 +1,5 @@
-# Türkçe içerik. Yapıyı en.yml ile aynı tutun:
+# Türkçe içerik. Cümle içinde bir kelimeye bağlantı vermek için [kelime](https://adres) yazın.
+# Yapıyı en.yml ile aynı tutun:
 # aynı sırada aynı kayıtlar, aynı sayıda madde, aynı tarihler ve bağlantılar.
 # İki dosya birbirinden saparsa `npm test` hata verir.
 
@@ -59,8 +60,9 @@ experience:
         geliştirdim ve ekibe önerdim; flaky koşuların incelenmesi için ayrı bir
         kit de içeriyor.
       - >-
-        Açık kaynaklı, ajan tabanlı QA metodolojisi Achilles'in mevcut Java ve
-        Selenium altyapısında pilot olarak denenmesini önerdim.
+        Açık kaynaklı, ajan tabanlı QA metodolojisi
+        [Achilles](https://www.npmjs.com/package/@civitas-cerebrum/achilles)'in
+        mevcut Java ve Selenium altyapısında pilot olarak denenmesini önerdim.
       - >-
         DevOps ekibiyle birlikte bir iç test servisini ArgoCD ve Backstage'e
         taşıdım.
