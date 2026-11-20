@@ -48,6 +48,7 @@ for (const lang of site.languages) {
       for (const section of ["about", "experience", "projects", "skills", "education", "certification"]) {
         await expect(page.getByRole("heading", { level: 2, name: text.ui[section] })).toBeVisible();
       }
+      await expect(page.locator(".highlights li")).toHaveCount(text.about.highlights.length);
       await expect(page.locator(".job .role").first()).toHaveText(text.experience[0].role);
       await expect(page.locator(".bullets li")).toHaveCount(
         text.experience.reduce((total, job) => total + job.bullets.length, 0),

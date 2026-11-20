@@ -79,7 +79,12 @@ permalink: "{{ lang.path }}index.html"
     <main class="content">
       <section aria-labelledby="about">
         <h2 id="about">{{ t.about }}</h2>
-        <p>{{ r.summary }}</p>
+        <p class="about-lead">{{ r.about.lead }}</p>
+        <ul class="highlights">
+          {%- for item in r.about.highlights %}
+          <li><strong><em>{{ item.label }}:</em></strong> {{ item.text }}</li>
+          {%- endfor %}
+        </ul>
       </section>
 
       <section aria-labelledby="experience">

@@ -8,12 +8,31 @@ description: >-
   Resume of Egecan Şen, a Test Automation Engineer working on web, iOS and
   Android test automation in Java, and on QA tooling for AI coding agents.
 
-summary: >-
-  I build and maintain automated tests for web, iOS and Android products, mostly
-  in Java with Selenium, Appium and JUnit. I work at sahibinden.com, Turkey's
-  largest online classifieds platform. I also build tooling that lets AI coding
-  agents write, diagnose and repair tests under the same rules a human reviewer
-  would enforce.
+# The About section: a lead-in line and a list of highlights.
+about:
+  lead: "Experienced in:"
+  highlights:
+    - label: Large test suites
+      text: >-
+        Responsible for close to 1,000 of 7,000+ automated tests at
+        sahibinden.com, Turkey's largest online classifieds platform.
+    - label: Web, iOS and Android
+      text: >-
+        Worked on all three test automation teams, in Java with Selenium,
+        Appium and JUnit, plus API testing with Retrofit and OkHttp.
+    - label: Frameworks and libraries
+      text: >-
+        Contributor to the Pickleib test automation libraries on Maven Central;
+        built starter frameworks on Page Object Model and BDD with Cucumber.
+    - label: Release and QA process
+      text: >-
+        Release approver at citizenM, where I set up a test stage in the
+        deployment pipelines and rolled out Xray; proposed and planned the
+        Preprod and Hotfix dashboard process at sahibinden.com.
+    - label: AI-assisted QA
+      text: >-
+        Built Hektor, a skills pack that lets AI coding agents write, diagnose
+        and repair tests within a team's review rules.
 
 experience:
   - role: Test Automation Engineer
