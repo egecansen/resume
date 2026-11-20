@@ -11,7 +11,7 @@ description: >-
 
 # The About section: a list of highlights. `lead` is an optional line above the list; leave it "" to hide it.
 about:
-  lead: "Experienced in:"
+  lead: ""
   highlights:
     - label: Multi-Platform Testing
       text: >-
