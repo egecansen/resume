@@ -15,23 +15,20 @@ about:
   highlights:
     - label: Multi-Platform Testi
       text: >-
-        Java ile web, iOS ve Android test otomasyonu (Selenium, Appium, JUnit);
-        Retrofit ve OkHttp ile API testleri.
+        Web, iOS ve Android'de arayüz ve API seviyesinde test otomasyonu.
     - label: Framework ve Kütüphaneler
       text: >-
-        Maven Central'da yayımlanan Pickleib test otomasyon kütüphanelerine
-        katkı; Page Object Model ve Cucumber (BDD) tabanlı başlangıç
-        çatılarının geliştirilmesi.
+        Test otomasyon çatılarının ve başlangıç şablonlarının geliştirilmesi;
+        açık kaynak test otomasyon kütüphanelerine katkı.
     - label: QA Süreçleri
       text: >-
-        citizenM'de sürüm onayı, dağıtım hatlarına test aşamasının kurulması ve
-        Xray'in devreye alınması; sahibinden.com'da Preprod ve Hotfix Dashboard
-        sürecinin önerilmesi ve planlanması.
+        Sürüm onayı, dağıtım hatlarında otomasyon test aşamaları, test yönetim
+        aracının devreye alınması, preprod ve hotfix süreçlerinin tasarımı.
     - label: Yapay Zekâ Destekli QA
       text: >-
         Yapay zekâ kodlama ajanlarının ekip kurallarına uygun biçimde test
-        yazmasını, hata teşhisini ve test onarımını sağlayan Hektor skill
-        paketinin geliştirilmesi.
+        yazmasını, hata teşhisini ve test onarımını sağlayan araçların
+        geliştirilmesi.
 
 experience:
   - role: Test Otomasyon Mühendisi
@@ -159,7 +156,7 @@ projects:
 
 skills:
   - group: Test otomasyonu
-    items: Selenium, Appium, JUnit 5, Cucumber (BDD), Page Object Model
+    items: Selenium, Cypress, Appium, JUnit 5, Cucumber (BDD), Page Object Model
   - group: API testi
     items: Retrofit, OkHttp, Postman
   - group: Dil ve derleme
@@ -193,7 +190,7 @@ ui:
   education: Eğitim
   certification: Sertifika
   present: Halen
-  email: E-posta
+  email: Email
   download: PDF indir
   photo_alt: Egecan Şen'in portresi
   updated: Güncelleme
